@@ -101,7 +101,6 @@ By the end of this module, you will be able to:
 
 ## 🎥 Video Tutorials (Not finished)
 
-
 ### Getting Started
 - [**Survey123 Basics**](https://mediaspace.esri.com/playlist/details/1_6l4iepo8/categoryId/238781803) (5 min)
 - [**Field Maps Walkthrough**](https://www.esri.com/en-us/arcgis/products/arcgis-field-maps/resources#settingup) (12 min)
@@ -110,7 +109,8 @@ By the end of this module, you will be able to:
 - [**Creating Your First Survey**](https://survey123.arcgis.com/share/f2093d08a49a4cb79d4093c1ba57a859) (5 min)
 - [**Downloading Offline Maps**](./videos/04-offline-maps.md) (10 min)
 - [**Collecting Data in the Field**](./videos/05-field-collection.md) (18 min)
-- [**Using the Emlid Reach RS3**](./videos/06-emlid-setup.md) (15 min)
+- [**Using the Emlid Reach RS3**](https://www.youtube.com/watch?v=6Ju4bLvkdRc) (8 min)
+- [**What is a Differential GPS?**](https://www.youtube.com/watch?v=8DAImUwJ_gE) (2 min)
 - [**Publishing a Damage Assessment Dashboard**](./videos/07-dashboard.md) (25 min)
 
 ### Advanced Topics
@@ -196,9 +196,9 @@ Build a community-facing map showing:
 - [Emlid Reach RS3 Setup Guide](https://docs.emlid.com/reachrs3/)
 
 ### Quick Reference Guides (Not Finished)
-- [📄 Survey123 Field Types Cheat Sheet](./resources/survey123-field-types.pdf)
+- [📄 Survey123 Field Types Cheat Sheet](https://doc.arcgis.com/en/survey123/browser/create-surveys/quickreferencecreatesurveys.htm)
 - [📄 Field Maps Offline Troubleshooting](./resources/offline-troubleshooting.pdf)
-- [📄 GPS Accuracy Standards](./resources/gps-accuracy-guide.pdf)
+- [📄 How a GPS works](https://geospatial.trimble.com/en/resources/blog/gps-101-learn-how-gps-works)
 - [📄 Photo Documentation Best Practices](./resources/photo-guidelines.pdf)
 
 ### Sample Forms (Not Finished)
