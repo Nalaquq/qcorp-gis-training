@@ -195,21 +195,13 @@ Build a community-facing map showing:
 - [Esri Wayback Imagery](https://livingatlas.arcgis.com/wayback/) - Historical satellite images
 - [Emlid Reach RS3 Setup Guide](https://docs.emlid.com/reachrs3/)
 
-### Quick Reference Guides (Not Finished)
+### Quick Reference Guides
 - [📄 Survey123 Field Types Cheat Sheet](https://doc.arcgis.com/en/survey123/browser/create-surveys/quickreferencecreatesurveys.htm)
-- [📄 Field Maps Offline Troubleshooting](./resources/offline-troubleshooting.pdf)
 - [📄 How a GPS works](https://geospatial.trimble.com/en/resources/blog/gps-101-learn-how-gps-works)
-- [📄 Photo Documentation Best Practices](./resources/photo-guidelines.pdf)
+- [📄 Upload Types for Survey 123](https://doc.arcgis.com/en/survey123/browser/create-surveys/mediafiles.htm)
 
-### Sample Forms (Not Finished)
-- [Damage Assessment Survey (XLSForm)](./resources/samples/damage-assessment.xlsx)
-- [Infrastructure Inspection Form](./resources/samples/infrastructure-survey.xlsx)
-- [Erosion Monitoring Form](./resources/samples/erosion-survey.xlsx)
-
-### Community Context (Not Finished)
-- [Yup'ik Place Names Reference](./resources/place-names.md)
-- [Subsistence Areas Map](./resources/subsistence-areas.pdf)
-- [Recovery Planning Timeline](./resources/recovery-timeline.md)
+### Sample Forms
+- [Lost Person Behavior Form](https://arcg.is/0TrnDv0) 
 
 ---
 
