@@ -58,10 +58,6 @@ By completing this activity, you will be able to:
 - [ ] Emlid Reach RS3 (optional, for higher accuracy)
 - [ ] Charged batteries for mobile device
 
-### Documents
-- [ ] [Activity Worksheet](./worksheets/activity-01-worksheet.pdf) (print or digital)
-- [ ] [Field Site Map](./maps/practice-area-map.pdf)
-
 ---
 
 ## Part 1: Design Your Survey (20 minutes)
@@ -110,19 +106,13 @@ Click the **Design** tab to start adding questions. You'll create a simple 6-que
 - Hint: "Enter first and last name"
 - Required: ✓ Yes
 
-**Question 2: Survey Date**
-- Click **Add** → **Date**
-- Label: `Date`
+**Question 2: Survey Date & Time**
+- Click **Add** → **Date Time**
+- Label: `Date Time"
 - Default value: Select **Today's date**
 - Required: ✓ Yes
 
-**Question 3: Survey Time**
-- Click **Add** → **Time**
-- Label: `Time`
-- Default value: Select **Current time**
-- Required: ✓ Yes
-
-**Question 4: Location**
+**Question 3: Location**
 - Click **Add** → **Map** (geopoint)
 - Label: `Location of Damage`
 - Required: ✓ Yes
@@ -131,7 +121,7 @@ Click the **Design** tab to start adding questions. You'll create a simple 6-que
   - Enable **Show location button**
   - Enable **Show accuracy**
 
-**Question 5: Damage Photos**
+**Question 4: Damage Photos**
 - Click **Add** → **Image**
 - Label: `Photos`
 - Description: "Take photos showing the damage"
@@ -141,7 +131,7 @@ Click the **Design** tab to start adding questions. You'll create a simple 6-que
   - Image size: Medium (1920px)
   - Maximum file size: 5 MB
 
-**Question 6: Type of Damage**
+**Question 5: Type of Damage**
 - Click **Add** → **Dropdown**
 - Label: `What was damaged?`
 - Required: ✓ Yes
@@ -427,7 +417,7 @@ Create a folder called `Activity_01_[YourLastName]` containing:
 4. **Completed Worksheet**
    - `activity_01_worksheet_completed.pdf`
 
-5. **Reflection Document** (1-2 pages)
+5. **Reflection Document** 
    - See reflection questions below
 
 ### Submission
