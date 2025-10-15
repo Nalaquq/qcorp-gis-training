@@ -46,7 +46,7 @@ By the end of this module, you will be able to:
 ## Tools You'll Use
 
 ### Software & Apps
-- **Survey123 Connect** (desktop) - Design custom surveys
+- **Survey123** (online) - Design custom surveys
 - **Survey123** (mobile) - Fill out surveys in the field
 - **ArcGIS Field Maps** (mobile) - Collect and map data
 - **ArcGIS Online** (web) - Manage and share data
