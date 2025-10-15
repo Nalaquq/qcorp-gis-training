@@ -77,7 +77,7 @@ By the end of this module, you will be able to:
    - Downloading maps for field use
    - Managing storage and updates
 
-3. [**GNSS Integration: Don't Start yet**](./lessons/03-gnss-integration.md)
+3. [**GNSS Integration: Don't Start yet**](https://docs.emlid.com/reachrs3/integration/arcgis-survey123/)
    - Connecting Emlid Reach RS3 via Bluetooth
    - Understanding GPS accuracy and metadata
    - When high-accuracy GPS matters
@@ -101,15 +101,13 @@ By the end of this module, you will be able to:
 
 ## 🎥 Video Tutorials (Not finished)
 
-### Introduction
-- [**Module Overview**](./videos/00-overview.md) (5 min) - What you'll learn and why it matters
 
 ### Getting Started
-- [**Survey123 Basics**](./videos/01-survey123-basics.md) (15 min)
-- [**Field Maps Walkthrough**](./videos/02-fieldmaps-walkthrough.md) (12 min)
+- [**Survey123 Basics**](https://mediaspace.esri.com/playlist/details/1_6l4iepo8/categoryId/238781803) (5 min)
+- [**Field Maps Walkthrough**](https://www.esri.com/en-us/arcgis/products/arcgis-field-maps/resources#settingup) (12 min)
 
 ### Hands-On Demonstrations
-- [**Creating Your First Survey**](./videos/03-creating-survey.md) (20 min)
+- [**Creating Your First Survey**](https://survey123.arcgis.com/share/f2093d08a49a4cb79d4093c1ba57a859) (5 min)
 - [**Downloading Offline Maps**](./videos/04-offline-maps.md) (10 min)
 - [**Collecting Data in the Field**](./videos/05-field-collection.md) (18 min)
 - [**Using the Emlid Reach RS3**](./videos/06-emlid-setup.md) (15 min)
