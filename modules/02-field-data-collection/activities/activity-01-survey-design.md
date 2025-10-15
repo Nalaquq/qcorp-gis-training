@@ -90,7 +90,7 @@ Before building your form, click the **Settings** tab (gear icon):
 
 **Appearance:**
 - Theme color: Blue
-- Logo: Upload Quinhagak logo if available
+- Logo: Upload the Qanirtuuq or Nalaquq logo if available
 
 **Map:**
 - Basemap: Streets or Imagery
