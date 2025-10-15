@@ -67,12 +67,12 @@ By the end of this module, you will be able to:
 
 ### 📖 Lessons
 
-1. [**Survey Design Fundamentals**](./lessons/01-survey-design.md)
+1. [**Survey Design Fundamentals**](https://www.esri.com/training/catalog/62d6eb926373de7c095c3d35/arcgis-survey123-basics/)
    - Understanding survey questions and field types
    - Creating forms in Survey123 Connect
    - Adding photos, videos, and GPS locations
 
-2. [**Offline Map Preparation**](./lessons/02-offline-maps.md)
+2. [**Offline Map Preparation**](https://www.esri.com/training/catalog/5fd937612d92684528c560c6/take-your-web-maps-offline-with-arcgis-field-maps/)
    - Creating offline map areas in Field Maps Designer
    - Downloading maps for field use
    - Managing storage and updates
@@ -190,24 +190,25 @@ Build a community-facing map showing:
 
 ### Official Documentation
 - [ArcGIS Field Maps Fundamentals](https://www.esri.com/training/catalog/5e6f5b3011d36d0a34b556c3/arcgis-field-maps-fundamentals/) - Esri Training
-- [Survey123 Gallery & Templates](https://survey123.arcgis.com/) - Pre-built forms
+- [Survey123 Training Resources](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources) - Additional Survey 123 Resources
+- [Survey123 Gallery & Templates](https://doc.arcgis.com/en/survey123/get-started/whatissurvey123.htm) - Survey 123 Official Documentation
 - [Offline Collection Guide](https://doc.arcgis.com/en/field-maps/help/offline.htm) - Field Maps documentation
 - [ArcGIS Dashboards Overview](https://www.esri.com/en-us/arcgis/products/arcgis-dashboards/overview)
 - [Esri Wayback Imagery](https://livingatlas.arcgis.com/wayback/) - Historical satellite images
 - [Emlid Reach RS3 Setup Guide](https://docs.emlid.com/reachrs3/)
 
-### Quick Reference Guides
+### Quick Reference Guides (Not Finished)
 - [📄 Survey123 Field Types Cheat Sheet](./resources/survey123-field-types.pdf)
 - [📄 Field Maps Offline Troubleshooting](./resources/offline-troubleshooting.pdf)
 - [📄 GPS Accuracy Standards](./resources/gps-accuracy-guide.pdf)
 - [📄 Photo Documentation Best Practices](./resources/photo-guidelines.pdf)
 
-### Sample Forms
+### Sample Forms (Not Finished)
 - [Damage Assessment Survey (XLSForm)](./resources/samples/damage-assessment.xlsx)
 - [Infrastructure Inspection Form](./resources/samples/infrastructure-survey.xlsx)
 - [Erosion Monitoring Form](./resources/samples/erosion-survey.xlsx)
 
-### Community Context
+### Community Context (Not Finished)
 - [Yup'ik Place Names Reference](./resources/place-names.md)
 - [Subsistence Areas Map](./resources/subsistence-areas.pdf)
 - [Recovery Planning Timeline](./resources/recovery-timeline.md)
@@ -221,9 +222,9 @@ To complete this module, you must:
 1. ✅ Complete and publish a Survey123 form to ArcGIS Online
 2. ✅ Collect a minimum of **10 field points** with complete attributes and photos
 3. ✅ Publish a **StoryMap** or **Dashboard** visualizing collected data
-4. ✅ Submit a brief written reflection (1-2 pages)
+4. ✅ Submit a brief report summarizing your work on this project in a professional email
 
-### Reflection Questions
+### Reflection Questions for the Report
 
 Your written reflection should address:
 
