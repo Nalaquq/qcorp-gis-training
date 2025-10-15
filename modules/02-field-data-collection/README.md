@@ -77,29 +77,29 @@ By the end of this module, you will be able to:
    - Downloading maps for field use
    - Managing storage and updates
 
-3. [**GNSS Integration**](./lessons/03-gnss-integration.md)
+3. [**GNSS Integration: Don't Start yet**](./lessons/03-gnss-integration.md)
    - Connecting Emlid Reach RS3 via Bluetooth
    - Understanding GPS accuracy and metadata
    - When high-accuracy GPS matters
 
-4. [**Field Data Collection Techniques**](./lessons/04-field-techniques.md)
+4. [**Field Data Collection Techniques: Don't start yet**](./lessons/04-field-techniques.md)
    - Best practices for consistent data collection
    - Taking useful field photos
    - Recording detailed observations
 
-5. [**Data Synchronization**](./lessons/05-data-sync.md)
+5. [**Data Synchronization: Don't start yet**](./lessons/05-data-sync.md)
    - Syncing offline data to ArcGIS Online
    - Troubleshooting sync issues
    - Managing data conflicts
 
-6. [**Visualization & Storytelling**](./lessons/06-visualization.md)
+6. [**Visualization & Storytelling: Don't Start yet**](./lessons/06-visualization.md)
    - Creating dashboards with real-time updates
    - Building Story Maps with before/after imagery
    - Sharing maps with community partners
 
 ---
 
-## 🎥 Video Tutorials
+## 🎥 Video Tutorials (Not finished)
 
 ### Introduction
 - [**Module Overview**](./videos/00-overview.md) (5 min) - What you'll learn and why it matters
@@ -142,7 +142,7 @@ Create a damage assessment survey form with these fields:
 
 ---
 
-### Activity 2: Offline Map Creation
+### Activity 2: Offline Map Creation (Not Finished)
 **Time:** 30 minutes
 
 Build offline map areas for:
@@ -156,7 +156,7 @@ Build offline map areas for:
 
 ---
 
-### Activity 3: Practice Field Collection
+### Activity 3: Practice Field Collection (Not finished)
 **Time:** 2 hours
 
 Conduct a practice survey around the Red Building:
@@ -171,7 +171,7 @@ Conduct a practice survey around the Red Building:
 
 ---
 
-### Activity 4: Create a Recovery StoryMap
+### Activity 4: Create a Recovery StoryMap (Not Finished)
 **Time:** 1.5 hours
 
 Build a community-facing map showing:
@@ -224,9 +224,9 @@ To complete this module, you must:
 3. ✅ Publish a **StoryMap** or **Dashboard** visualizing collected data
 4. ✅ Submit a brief report summarizing your work on this project in a professional email
 
-### Reflection Questions for the Report
+### Reflection Questions for the Report (Not Finished)
 
-Your written reflection should address:
+Your reflection report should address:
 
 1. What are the advantages of using mobile GIS tools after a disaster?
 2. How can damage mapping support Yup'ik-led recovery and planning?
