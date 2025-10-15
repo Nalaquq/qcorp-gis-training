@@ -87,7 +87,7 @@ By the end of this module, you will be able to:
    - Taking useful field photos
    - Recording detailed observations
 
-5. [**Data Synchronization: Don't start yet**](./lessons/05-data-sync.md)
+5. [**Data Synchronization: Don't start yet**](https://doc.arcgis.com/en/arcgis-online/manage-data/take-maps-offline.htm)
    - Syncing offline data to ArcGIS Online
    - Troubleshooting sync issues
    - Managing data conflicts
