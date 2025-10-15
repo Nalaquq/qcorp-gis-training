@@ -437,13 +437,13 @@ Upload your folder to:
 - Submit via email to training team, OR
 - Upload to designated submission platform
 
-**Due Date:** [To be announced by instructor]
+**Due Date:** TBD
 
 ---
 
 ## Reflection Questions
 
-Answer these questions in a 1-2 page document:
+Prepare to answer the following reflection questions at our next meeting:
 
 ### Technical Reflection
 
