@@ -10,10 +10,11 @@
 
 ## Overview
 
-This module teaches you how to collect, document, and share field data using mobile GIS tools. You'll learn through a real-world scenario: documenting damage from the October 2025 typhoon that impacted Quinhagak and surrounding communities.
+This module teaches you how to collect, document, and share field data using mobile GIS tools. You'll learn through a real-world scenario: documenting damage from the [October 2025 typhoon](https://www.kyuk.org/public-safety/2025-10-14/typhoon-leaves-flooded-alaska-villages-facing-a-storm-recovery-far-tougher-than-most) that impacted Quinhagak and surrounding communities.
 
 By the end of this module, you'll be able to collect accurate geographic data in the field, even without internet connection, and create maps that support community decision-making.
 
+![alt text](/assets/images/halon ab.jpg "Storm surge seen flooding boardwalks in Tuntutuliak on Oct. 12, 2025 (Photo courtesy of Phillip Charlie via Charity Qalutaq Blanchett and the Alaska Beacon)")
 ---
 
 ## Learning Objectives
@@ -224,7 +225,7 @@ Your reflection report should address:
 4. What challenges did you face during field data collection?
 5. How might this approach help preserve traditional knowledge?
 
-[📄 Assessment Rubric](./assessment/rubric.md) | [📤 Submission Form](./assessment/submit.md)
+[📄 Assessment Rubric](./assessment/rubric.md) |
 
 ---
 
