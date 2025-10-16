@@ -5,8 +5,6 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![NSF Award](https://img.shields.io/badge/NSF-2527256-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2527256)
 
----
-
 ## About This Project
 
 This repository contains training materials, workflows, and resources developed through a partnership between the University of Arkansas, Nalaquq LLC, and the Yup'ik community of Quinhagak, Alaska. The project integrates Western scientific methods with Yup'ik traditional knowledge to monitor the Qanirtuuq River and support community-led decision-making on critical issues including:
