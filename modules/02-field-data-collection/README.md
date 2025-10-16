@@ -14,7 +14,6 @@ This module teaches you how to collect, document, and share field data using mob
 
 By the end of this module, you'll be able to collect accurate geographic data in the field, even without internet connection, and create maps that support community decision-making.
 
-
 <div align="center">
   <img src="../../assets/images/halon.jpg" 
        alt="Storm surge flooding boardwalks in Tuntutuliak" 
@@ -64,7 +63,7 @@ By the end of this module, you will be able to:
 
 ### Hardware
 - Smartphone or tablet (iOS or Android)
-- **Emlid Reach RS3** GNSS receiver (optional but recommended)
+- **Emlid Reach RS3** GNSS receiver
 - Starlink Roam kit for field connectivity
 
 ### Required License
