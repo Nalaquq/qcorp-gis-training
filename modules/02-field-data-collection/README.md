@@ -15,9 +15,14 @@ This module teaches you how to collect, document, and share field data using mob
 By the end of this module, you'll be able to collect accurate geographic data in the field, even without internet connection, and create maps that support community decision-making.
 
 
-
-!["Storm surge seen flooding boardwalks in Tuntutuliak on Oct. 12, 2025 Photo courtesy of Phillip Charlie via Charity Qalutaq Blanchett and the Alaska Beacon"](.../assets/images/halon.jpg "Storm surge seen flooding boardwalks in Tuntutuliak on Oct. 12, 2025 Photo courtesy of Phillip Charlie via Charity Qalutaq Blanchett and the Alaska Beacon")
-
+<div align="center">
+  <img src="../../assets/images/halon.jpg" 
+       alt="Storm surge flooding boardwalks in Tuntutuliak" 
+       width="750"
+       style="max-width: 100%; border-radius: 4px;">
+  <p><strong>Typhoon Damage in Tuntutuliak</strong><br>
+  <em>Storm surge seen flooding boardwalks on Oct. 12, 2025. Photo courtesy of Phillip Charlie via Charity Qalutaq Blanchett and the Alaska Beacon.</em></p>
+</div>
 ---
 
 ## Learning Objectives
