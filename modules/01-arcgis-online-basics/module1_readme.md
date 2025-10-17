@@ -53,36 +53,36 @@ By the end of this module, you will be able to:
 
 ### 📖 Lessons
 
-1. [**Getting Started with ArcGIS Online**](./lessons/01-getting-started.md) (30 min)
+1. [**Getting Started with ArcGIS Online**](./lessons/lesson1_getting_started.md) (30 min)
    - Account registration and setup
    - Interface overview
    - Understanding user roles and licenses
 
-2. [**Accessing Satellite Imagery**](./lessons/02-satellite-imagery.md) (45 min)
+2. [**Accessing Satellite Imagery**](./lessons/lesson2_satellite.md) (45 min)
    - Landsat Explorer introduction
    - Esri Wayback Imagery Viewer
    - Copernicus Browser basics
    - Understanding image dates and quality
 
-3. [**Creating Web Maps**](./lessons/03-web-maps.md) (45 min)
+3. [**Creating Web Maps**](./lessons/lesson3_web_maps.md) (45 min)
    - Map Viewer basics
    - Adding layers and basemaps
    - Styling and symbolizing data
    - Saving and sharing maps
 
-4. [**Story Maps for Communication**](./lessons/04-story-maps.md) (60 min)
+4. [**Story Maps for Communication**](./lessons/lesson4_storymaps.md) (60 min)
    - What are Story Maps?
    - Choosing the right template
    - Adding narrative and media
    - Publishing for community audiences
 
-5. [**Content Management**](./lessons/05-content-management.md) (30 min)
+5. [**Content Management**](./lessons/lessons_5_6.md) (30 min)
    - Organizing with folders and Groups
    - Publishing feature layers
    - Setting sharing permissions
    - Managing organizational content
 
-6. [**Integrating GIS into Resources**](./lessons/06-integration.md) (30 min)
+6. [**Integrating GIS into Resources**](./lessons/lessons_5_6.md) (30 min)
    - Embedding maps in websites
    - Creating dashboards
    - Sharing with stakeholders
