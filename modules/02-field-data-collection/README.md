@@ -85,7 +85,7 @@ By the end of this module, you will be able to:
    - Downloading maps for field use
    - Managing storage and updates
 
-3. [**GNSS Integration: Don't Start yet**](https://docs.emlid.com/reachrs3/integration/arcgis-survey123/)
+3. [**GNSS Integration**](https://docs.emlid.com/reachrs3/integration/arcgis-survey123/)
    - Connecting Emlid Reach RS3 via Bluetooth
    - Understanding GPS accuracy and metadata
    - When high-accuracy GPS matters
@@ -95,7 +95,7 @@ By the end of this module, you will be able to:
    - Taking useful field photos
    - Recording detailed observations
 
-5. [**Data Synchronization: Don't start yet**](https://doc.arcgis.com/en/arcgis-online/manage-data/take-maps-offline.htm)
+5. [**Data Synchronization**](https://doc.arcgis.com/en/arcgis-online/manage-data/take-maps-offline.htm)
    - Syncing offline data to ArcGIS Online
    - Troubleshooting sync issues
    - Managing data conflicts
