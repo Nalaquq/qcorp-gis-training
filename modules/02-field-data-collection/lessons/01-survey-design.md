@@ -12,17 +12,18 @@
 
 By the end of this lesson, you will:
 
-1. Design effective field surveys
-2. Choose appropriate question types
-3. Build surveys in Survey123 web designer
-4. Configure GPS and photo capture
-5. Customize maps and layers
-6. Set up automated notifications
-7. Control data access and privacy
+1. ✅ Design effective field surveys
+2. ✅ Choose appropriate question types
+3. ✅ Build surveys in Survey123 web designer
+4. ✅ Configure GPS and photo capture
+5. ✅ Customize maps and layers
+6. ✅ Set up automated notifications
+7. ✅ Control data access and privacy
+
 
 ---
 
-## Why Good Survey Design Matters
+## [🎥Why Good Survey Design Matters](https://www.youtube.com/watch?v=)
 
 | Poor Design | Good Design |
 |-------------|-------------|
@@ -33,7 +34,7 @@ By the end of this lesson, you will:
 
 ---
 
-## Three Principles of Effective Surveys
+## [🎧 Three Principles of Effective Surveys](https://www.esri.com/arcgis-blog/products/arcgis-hub/constituent-engagement/building-engaging-user-experiences)
 
 ### 1. Know Your Purpose
 
@@ -75,7 +76,7 @@ Consider: Technology comfort, language preferences, field conditions (cold, wet,
 
 
 
-## Survey123 Web Designer
+## [🔗 Survey123 Web Designer](https://doc.arcgis.com/en/survey123/browser/create-surveys/webdesigneressentials.htm)
 
 ### Two Ways to Build Surveys
 
@@ -108,7 +109,7 @@ Consider: Technology comfort, language preferences, field conditions (cold, wet,
 | **Geopoint (Map)** | **ALL field surveys** | **Required**; 10m accuracy | "Location of Damage" |
 | **Image** | Photo documentation | 5 MB max; 3-5 photos | "Damage Photos" |
 
-### Critical GPS Settings
+### [❗GPS Settings](https://doc.arcgis.com/en/survey123/browser/analyze-results/locationsharing.htm) 
 
 For ALL field surveys:
 - **Accuracy threshold:** 10 meters (5m for high-precision)
@@ -117,7 +118,7 @@ For ALL field surveys:
 - **Samples to average:** 3
 - **Required:** ✓ Yes
 
-### Critical Photo Settings
+### [❗Photo Settings](https://doc.arcgis.com/en/survey123/browser/create-surveys/mediafiles.htm)
 
 For field documentation:
 - **Maximum images:** 5
@@ -128,7 +129,7 @@ For field documentation:
 
 ---
 
-## Customizing Maps
+## [🎥 Customizing Maps](https://learn.arcgis.com/en/paths/mapping-and-visualization/) 
 
 ### Why Customize?
 
@@ -136,7 +137,7 @@ For field documentation:
 
 **You want:** Village extent, infrastructure layers, traditional place names
 
-### Steps
+### [🔗 Steps](https://doc.arcgis.com/en/arcgis-online/get-started/get-started-with-maps-mv.htm)
 
 1. Click **Map** question → **More options** → **Map Settings**
 
@@ -202,7 +203,7 @@ When you publish, Survey123 creates three linked items:
 
 ---
 
-## Automated Notifications
+## [📝 Automated Notifications](https://www.esri.com/training/catalog/5c392a12dd8b97414e076ae8/automate-email-notifications-with-arcgis-survey123/)
 
 ### Use Cases
 
@@ -294,7 +295,7 @@ When you publish, Survey123 creates three linked items:
 
 ---
 
-## Survey Design Checklist
+## ✅ Survey Design Checklist
 
 ### Before Building
 - [ ] Purpose clearly defined
