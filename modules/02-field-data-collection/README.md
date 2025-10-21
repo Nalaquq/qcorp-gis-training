@@ -75,7 +75,7 @@ By the end of this module, you will be able to:
 
 ### 📖 Lessons
 
-1. [**Survey Design Fundamentals**](https://www.esri.com/training/catalog/62d6eb926373de7c095c3d35/arcgis-survey123-basics/)
+1. [**Survey Design Fundamentals**](./lessons/01-survey-design.md)
    - Understanding survey questions and field types
    - Creating forms in Survey123 Connect
    - Adding photos, videos, and GPS locations
