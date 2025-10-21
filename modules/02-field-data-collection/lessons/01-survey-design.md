@@ -1,4 +1,5 @@
 # Lesson 1: Survey Design Fundamentals
+# [🎥 Video Course](https://www.esri.com/training/catalog/5e14de9636e7e15d09b53b62/create-smart-surveys-and-forms-using-arcgis-survey123/)
 
 **Module:** 02 - Field Data Collection  
 **Duration:** 90 minutes  
@@ -72,7 +73,7 @@ Consider: Technology comfort, language preferences, field conditions (cold, wet,
 
 **For Technical Staff:** More detail acceptable, technical terms okay, advanced features
 
----
+
 
 ## Survey123 Web Designer
 
