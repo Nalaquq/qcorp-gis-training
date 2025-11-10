@@ -2,11 +2,11 @@
 
 ## Introduction to Skydio X10 for Community Mapping and Monitoring
 
-**Duration:** 2-3 days
+**Duration:** 3-4 days
 **Prerequisites:** Module 6 (Advanced Spatial Analysis)
 **Equipment:** Skydio X10 with Flight Deck controller
 **Setting:** Red Building training room + outdoor flight area
-**Training Date:** November 5, 2025
+**Training Dates:** November 5-7, 2025
 
 ---
 
@@ -30,16 +30,23 @@ By the end of this module, you'll understand how to safely operate the Skydio X1
 - Fly thermal imaging missions
 - Monitor weather and aircraft traffic using FAA radio
 - Interpret thermal imagery for building inspections
-- Plan and execute mapping missions
+- Plan and execute orthomosaic mapping missions
+- Upload data via SD card and Starlink network
+- Process imagery into orthomosaics using ESRI Site Scan
+- Publish and manage drone content in ArcGIS Online
+- Understand and work with DSM, DTM, and orthomosaic data
 
 **Example Applications:**
 - Building energy efficiency assessments
 - Heat loss identification for weatherization programs
 - Infrastructure inspection (roofs, walls, foundations)
+- High-resolution mapping and orthomosaics
+- Baseline documentation for change detection
 - Coastal erosion monitoring
 - Search and rescue operations
 - Environmental monitoring
 - Cultural site documentation
+- GIS base map creation
 
 ---
 
@@ -57,8 +64,15 @@ By the end of this module, you will be able to:
 8. ✅ Plan and execute thermal imaging missions
 9. ✅ Interpret thermal imagery for building inspections
 10. ✅ Identify heat loss patterns in residential and commercial structures
-11. ✅ Operate safely in Alaska weather conditions
-12. ✅ Document flight operations and findings
+11. ✅ Plan and execute orthomosaic mapping missions
+12. ✅ Collect systematic aerial imagery (1000+ images)
+13. ✅ Upload data via SD card and network connections
+14. ✅ Process imagery into orthomosaics using ESRI Site Scan
+15. ✅ Publish drone products to ArcGIS Online
+16. ✅ Understand raster data types (orthomosaics, DSM, DTM)
+17. ✅ Manage drone-derived content in GIS
+18. ✅ Operate safely in Alaska weather conditions
+19. ✅ Document flight operations and findings
 
 ---
 
@@ -144,6 +158,46 @@ By the end of this module, you will be able to:
    - Thermal mission planning
    - Data collection techniques
    - Interpreting thermal images
+
+9. [**Mapping Missions and Data Collection**](./lessons/lesson9_mapping_missions.md) (120 min)
+   - Planning orthomosaic mapping missions
+   - Flight parameters for mapping (altitude, overlap)
+   - Controller pairing protocols (do not move drone)
+   - Takeoff/landing location consistency requirements
+   - Proper scan saving procedures
+   - Executing systematic mapping flights
+   - Managing large datasets (~1000 images)
+   - Lessons from Quinhagak grocery store mission
+
+10. [**Data Upload Workflows - Site Scan and Skydio Cloud**](./lessons/lesson10_data_upload.md) (90 min)
+    - SD card removal and data transfer
+    - Uploading to ESRI Site Scan
+    - USB-C to Ethernet connection via Starlink
+    - Direct upload to Skydio Cloud
+    - Comparing upload methods
+    - Data backup best practices
+    - Alaska-specific considerations (Starlink performance)
+    - Troubleshooting upload issues
+
+11. [**Orthomosaic Processing and ArcGIS Online Integration**](./lessons/lesson11_orthomosaic_processing.md) (90 min)
+    - Understanding photogrammetry workflow
+    - Processing imagery in ESRI Site Scan
+    - Quality assessment of processed data
+    - Publishing orthomosaics to ArcGIS Online
+    - Content management in ArcGIS Online
+    - Creating web maps with drone imagery
+    - Sharing orthomosaics with stakeholders
+    - Integration with other GIS layers
+
+12. [**Understanding Raster Data - DSM, DTM, and Orthomosaics**](./lessons/lesson12_raster_data_types.md) (90 min)
+    - Introduction to raster data concepts
+    - Orthomosaics: characteristics and applications
+    - Digital Surface Models (DSM) - includes all features
+    - Digital Terrain Models (DTM) - bare earth
+    - Choosing appropriate products for tasks
+    - Working with elevation data in ArcGIS
+    - Resolution, accuracy, and limitations
+    - Practical raster analysis techniques
 
 ---
 
@@ -278,6 +332,59 @@ Learn to monitor aviation communications:
 **Deliverable:** Weather monitoring log and airspace awareness checklist
 
 [📋 Activity Instructions](./activities/activity-05-faa-radio.md)
+
+---
+
+### Activity 6: First Orthomosaic Mapping Mission
+**Time:** 4-5 hours (includes processing wait time)
+**Training Date:** November 7, 2025
+
+**The Real Task:** Execute complete workflow to create orthomosaic of Quinhagak grocery store.
+
+Mission Phases:
+1. **Mission Planning** (30 min)
+   - Define coverage area (grocery store and surroundings)
+   - Set flight parameters (200ft altitude, 80/80 overlap)
+   - Prepare equipment and checklists
+   - Weather and airspace checks
+
+2. **Flight Operations** (60-90 min)
+   - Complete preflight checks
+   - Execute mapping flight
+   - Collect ~1000 images
+   - Apply critical lessons (no moving during pairing, same landing location)
+   - Post-flight procedures and data verification
+
+3. **Data Upload** (60-90 min)
+   - Method A: SD card removal and upload to ESRI Site Scan
+   - Method B: USB-C to Ethernet (Belkin adapter) via Starlink to Skydio Cloud
+   - Data backup procedures
+
+4. **Processing** (4-8 hours - automated)
+   - Configure processing in Site Scan
+   - Monitor progress
+   - Review quality reports
+
+5. **ArcGIS Online Integration** (60 min)
+   - Publish orthomosaic to ArcGIS Online
+   - Content management and organization
+   - Create web map with comparison tools
+   - Share with team
+
+6. **Analysis and Documentation** (45 min)
+   - Conduct measurements
+   - Assess building conditions
+   - Complete mission report
+   - Document lessons learned
+
+**Deliverables:**
+- High-resolution orthomosaic (~0.5-0.7" GSD)
+- Digital Surface Model (DSM)
+- Web map with comparison functionality
+- Mission report and lessons learned
+- Published content in ArcGIS Online
+
+[📋 Activity Instructions](./activities/activity-06-first-orthomosaic.md)
 
 ---
 
