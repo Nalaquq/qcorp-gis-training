@@ -54,16 +54,16 @@ This repository contains training materials, workflows, and resources developed 
 
 1. **[ArcGIS Online Basics](./modules/01-arcgis-online-basics/)** - User registration, dashboards, Story Maps, web maps
 2. **[Field Data Collection](./modules/02-field-data-collection/)** - Survey123, Field Maps, offline workflows, GNSS integration
-3. **[Digitizing Paper Maps](./modules/03-digitizing-paper-maps/)** - Georeferencing, raster vs vector data
-4. **[Spatial Analysis](./modules/04-spatial-analysis/)** - Geoprocessing tools, buffers, clip operations
-5. **[Cartography](./modules/05-cartography/)** - Map design, coordinate systems, printing and web publishing
-6. **[Remote Sensing: Satellite](./modules/06-remote-sensing-satellite/)** - Landsat, Sentinel, Wayback imagery
+3. **[Digitizing Paper Maps](./modules/03-module-name/)** - Georeferencing, raster vs vector data *(In Development)*
+4. **[Spatial Analysis](./modules/04-module-name/)** - Geoprocessing tools, buffers, clip operations *(In Development)*
+5. **[Cartography with ArcGIS Online](./modules/05-cartography-arcgis-online/)** - Map design, vector data, web publishing
+6. **[Remote Sensing: Satellite](./modules/06-module-name/)** - Landsat, Sentinel, Wayback imagery *(In Development)*
 7. **[Remote Sensing: Drones](./modules/07-remote-sensing-drones/)** - UAS data collection and processing
 
 ### Advanced Modules (Summer 2026)
 
-8. **[Change Detection](./modules/08-change-detection/)** - Temporal analysis of landscape change
-9. **[River Monitoring](./modules/09-river-monitoring/)** - River migration, avulsion prediction, salmon mapping
+8. **[Change Detection](./modules/08-module-name/)** - Temporal analysis of landscape change *(Planned for 2026)*
+9. **[River Monitoring](./modules/09-module-name/)** - River migration, avulsion prediction, salmon mapping *(Planned for 2026)*
 
 ---
 
