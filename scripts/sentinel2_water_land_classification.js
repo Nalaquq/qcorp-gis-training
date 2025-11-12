@@ -152,11 +152,6 @@ function runAnalysis(earliest, latest, statusLabel, thresholdSlider, grayscaleCh
     });
   });
 
-  // Store for export
-  global.exportImage = classified;
-  global.exportGeometry = drawnGeometry;
-  global.exportComposite = clippedComposite;
-
   // Define the export parameters for binary classification
   var classificationExportParams = {
     image: classified.toByte(),  // Convert to byte to save space
