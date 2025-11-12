@@ -59,6 +59,85 @@ An interactive Google Earth Engine script for downloading Sentinel-2 satellite i
 
 ---
 
+### sentinel2_water_land_classification.js
+
+An interactive Google Earth Engine script for water/land classification using NIR (Near-Infrared) imagery from Sentinel-2. Perfect for river monitoring, water body mapping, and detecting landscape changes.
+
+**Features:**
+- NIR-based binary classification (B8 band at 835nm)
+- Adjustable threshold slider for water detection sensitivity
+- Three preset modes:
+  - **Conservative** (0.10): Detects more water, good for turbid/shallow water
+  - **Moderate** (0.15): Balanced detection (default)
+  - **Aggressive** (0.20): Detects less water, good for clear water bodies
+- Real-time area statistics (hectares and percentages for water and land)
+- Binary raster output (0 = Water, 1 = Land)
+- Visual legend with color-coded display (Blue = Water, Green = Land)
+- Automatic cloud masking (<5% cloud coverage)
+- Date range selection with dual sliders
+- Export as byte-encoded GeoTIFF for efficient storage
+
+**How to Use:**
+
+1. **Access the Script:**
+   - Open [Google Earth Engine Code Editor](https://code.earthengine.google.com/)
+   - Copy and paste the contents of `sentinel2_water_land_classification.js`
+
+2. **Set Up Your Analysis:**
+   - Draw a polygon on the map to define your study area
+   - Use the start and end date sliders to select your time range
+   - Adjust the NIR threshold slider to fine-tune water detection:
+     - **Lower values** (0.05-0.10): Detect more water (includes turbid, vegetated, or shallow water)
+     - **Higher values** (0.20-0.30): Detect less water (only clear, deep water bodies)
+   - Use preset buttons for quick threshold selection
+
+3. **Run and Export:**
+   - Click "Run Analysis" to process the classification
+   - View water/land statistics in the status panel
+   - The binary classification will display on the map (Blue=Water, Green=Land)
+   - Optional: Toggle on the "NIR (B8)" layer to see the raw NIR data
+   - Check the "Tasks" tab (top-right) to export to Google Drive
+   - Click "Run" on the export task to download your binary GeoTIFF
+
+4. **Interpret Results:**
+   - **Value 0 (Blue)**: Water - includes rivers, lakes, ponds, flooded areas
+   - **Value 1 (Green)**: Land - includes vegetation, bare ground, buildings, ice/snow
+   - Use area statistics to quantify water extent changes over time
+
+**Use Cases:**
+- **River monitoring**: Track river channel migration and avulsion
+- **Flood mapping**: Assess inundation extent during high water events
+- **Water body inventory**: Map lakes, ponds, and wetlands
+- **Seasonal analysis**: Compare water extent across different seasons
+- **Change detection**: Identify new water bodies or dried-up areas
+- **Salmon habitat**: Map potential spawning areas and water access
+
+**Method:**
+The script uses a simple but effective NIR threshold method. Water absorbs NIR radiation (low reflectance), while land reflects it (high reflectance). By setting a threshold value, we separate water from land. The optimal threshold varies based on:
+- Water turbidity (sediment content)
+- Vegetation in/around water
+- Water depth
+- Atmospheric conditions
+- Surrounding land cover
+
+**Data Source:**
+[Copernicus Sentinel-2 SR Harmonized](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED)
+
+**Resolution:** 10m (B8 NIR band)
+
+**Cloud Coverage Filter:** <5%
+
+**Output Format:** Binary GeoTIFF (byte-encoded: 0=Water, 1=Land)
+
+**Tips:**
+- Run multiple analyses with different thresholds to find the best one for your area
+- For river monitoring, use summer dates (June-August) when water is most visible
+- For flood assessment, compare classifications before and after storm events
+- Export multiple dates and compare in ArcGIS Pro to create change detection maps
+- Consider ground-truthing results with field observations or high-resolution imagery
+
+---
+
 ## Installation & Setup
 
 ### Prerequisites
@@ -82,6 +161,8 @@ Google Earth Engine runs entirely in the cloud through your web browser. Simply 
 - [Google Earth Engine Documentation](https://developers.google.com/earth-engine/)
 - [Sentinel-2 Band Information](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED#bands)
 - [Earth Engine Code Editor Guide](https://developers.google.com/earth-engine/guides/playground)
+- [Water Detection Methods in Remote Sensing](https://developers.google.com/earth-engine/tutorials/community/sentinel-2-s2cloudless)
+- [Image Classification Tutorial](https://developers.google.com/earth-engine/guides/classification)
 
 ---
 
