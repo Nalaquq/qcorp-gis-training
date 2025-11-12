@@ -1,6 +1,17 @@
-# Google Earth Engine Scripts
+# Satellite Imagery Analysis and River Monitoring Tools
 
-This directory contains Google Earth Engine (GEE) scripts for satellite imagery analysis and processing.
+This directory contains tools for satellite imagery analysis and automated river monitoring:
+
+- **Google Earth Engine Scripts**: JavaScript tools for exporting satellite data
+- **Python Analysis Tools**: Automated river extraction and temporal change detection
+
+## Quick Start
+
+1. **Export Data from GEE** → Use JavaScript scripts below to export water/land classifications
+2. **Extract Rivers** → Use Python tools to convert rasters to vector polygons
+3. **Analyze Changes** → Compare multiple dates to detect channel migration
+
+See [RIVER_ANALYSIS_README.md](./RIVER_ANALYSIS_README.md) for detailed Python tool documentation.
 
 ## Scripts
 
@@ -138,7 +149,102 @@ The script uses a simple but effective NIR threshold method. Water absorbs NIR r
 
 ---
 
-## Installation & Setup
+## Python River Analysis Tools
+
+### Overview
+
+Automated Python tools for extracting river channel polygons (including braids) from binary water/land rasters and performing temporal change analysis.
+
+**Tools:**
+- `river_extraction.py` - Extract river polygons from binary rasters
+- `river_temporal_analysis.py` - Compare multiple dates, detect changes
+- `river_extraction_workflow.ipynb` - Interactive Jupyter notebook tutorial
+- `requirements.txt` - Python dependencies
+
+**Complete documentation:** See [RIVER_ANALYSIS_README.md](./RIVER_ANALYSIS_README.md)
+
+### Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+**Required packages:** rasterio, geopandas, scipy, numpy, pandas, matplotlib
+
+### Quick Usage
+
+**Extract river from single raster:**
+
+```bash
+python river_extraction.py WaterLand_Classification.tif river_output.gpkg
+```
+
+**Or in Python:**
+
+```python
+from river_extraction import RiverExtractor
+
+extractor = RiverExtractor("WaterLand_Classification.tif")
+river_gdf = extractor.extract_river(method='largest')
+extractor.save_vector(river_gdf, "river_output.gpkg")
+```
+
+**Temporal analysis:**
+
+```bash
+python river_temporal_analysis.py output_dir river1.gpkg 2024-05-01 river2.gpkg 2024-10-30
+```
+
+**Interactive workflow:**
+
+```bash
+jupyter notebook river_extraction_workflow.ipynb
+```
+
+### Key Features
+
+**River Extraction:**
+- Automatic water detection
+- Preserves all braided channels (no size limit)
+- Two extraction methods: largest water body or seed point
+- Noise removal and polygon simplification
+- Batch processing for multiple dates
+
+**Temporal Analysis:**
+- Area change calculations over time
+- Gain/loss detection (new water, abandoned channels)
+- Channel migration distance measurements
+- New channel detection (avulsion, braiding events)
+- Comprehensive reports with maps and statistics
+
+### Use Cases
+
+- **River Avulsion Monitoring**: Track sudden channel changes
+- **Flood Assessment**: Quantify inundation extent
+- **Seasonal Variability**: Compare wet vs dry seasons
+- **Storm Impact**: Before/after event analysis
+- **Salmon Habitat**: Map accessible spawning areas
+- **Infrastructure Planning**: Identify areas at risk
+
+### Outputs
+
+All tools export to **GeoPackage (.gpkg)** format, compatible with:
+- ArcGIS Pro
+- QGIS
+- Python (geopandas)
+- Web applications (convertible to GeoJSON)
+
+### Future Development
+
+These tools are designed to be integrated into a **Flask web application** for automated river monitoring. The modular architecture allows easy deployment as a web service with:
+- Upload interface for binary rasters
+- Automated extraction and analysis
+- Interactive change detection dashboard
+- Email alerts for significant changes
+
+---
+
+## Installation & Setup (Google Earth Engine)
 
 ### Prerequisites
 
