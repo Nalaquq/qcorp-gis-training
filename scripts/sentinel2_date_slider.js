@@ -7,17 +7,12 @@
 // Instructions:
 // 1. Draw a polygon on the map to define your area of interest (use the polygon drawing tool)
 // 2. Use the two date sliders in the panel to select your start and end dates
-// 3. Select which bands you want to export (RGB is selected by default)
+// 3. Select which bands you want to export (B4, B3, B2 RGB selected by default)
 // 4. Click "Run Analysis" to generate the composite
 // 5. Check the Tasks tab to export to Google Drive
 
 // Define all available bands organized by category
 var bandDefinitions = {
-  'True Color Image': [
-    {name: 'TCI_R', description: 'True Color Red', resolution: '10m'},
-    {name: 'TCI_G', description: 'True Color Green', resolution: '10m'},
-    {name: 'TCI_B', description: 'True Color Blue', resolution: '10m'}
-  ],
   'Visible & NIR': [
     {name: 'B2', description: 'Blue (496nm)', resolution: '10m'},
     {name: 'B3', description: 'Green (560nm)', resolution: '10m'},
@@ -183,7 +178,7 @@ panel.add(title);
 
 // Add instructions
 var instructions = ui.Label({
-  value: '1. Draw a polygon on the map\n2. Set start and end dates below\n3. Select bands to export\n4. Click "Run Analysis"',
+  value: '1. Draw a polygon on the map\n2. Set start and end dates below\n3. Select bands to export (B4,B3,B2 RGB default)\n4. Click "Run Analysis"',
   style: {
     fontSize: '13px',
     margin: '0 0 10px 0',
@@ -299,7 +294,8 @@ for (var category in bandDefinitions) {
   var bands = bandDefinitions[category];
   for (var i = 0; i < bands.length; i++) {
     var band = bands[i];
-    var isDefaultSelected = (band.name === 'TCI_R' || band.name === 'TCI_G' || band.name === 'TCI_B');
+    // Default to RGB bands (B4=Red, B3=Green, B2=Blue) for true color composite
+    var isDefaultSelected = (band.name === 'B4' || band.name === 'B3' || band.name === 'B2');
 
     var checkbox = ui.Checkbox({
       label: band.name + ' - ' + band.description + ' [' + band.resolution + ']',
