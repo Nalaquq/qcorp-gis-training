@@ -14,9 +14,9 @@
 // Define all available bands organized by category
 var bandDefinitions = {
   'Visible & NIR': [
-    {name: 'B2', description: 'Blue (496nm)', resolution: '10m'},
-    {name: 'B3', description: 'Green (560nm)', resolution: '10m'},
     {name: 'B4', description: 'Red (665nm)', resolution: '10m'},
+    {name: 'B3', description: 'Green (560nm)', resolution: '10m'},
+    {name: 'B2', description: 'Blue (496nm)', resolution: '10m'},
     {name: 'B8', description: 'NIR (835nm)', resolution: '10m'}
   ],
   'Red Edge': [
