@@ -12,9 +12,11 @@
 
 ## Overview
 
-This module introduces cartography principles and map-making using ArcGIS Online's Web Map application. You'll learn to create professional maps using vector data (points, lines, and polygons), access publicly available layers, design effective visualizations, and export publication-ready maps.
+This module introduces cartography principles and map-making using ArcGIS Online's Web Map application and ArcGIS Pro. You'll learn to create professional maps using vector data (points, lines, and polygons), access publicly available layers, design effective visualizations, and export publication-ready maps. The module progresses from interactive web maps in ArcGIS Online to advanced static map production in ArcGIS Pro.
 
-By the end of this module, you'll be able to create clear, informative maps that communicate spatial information effectively to community members, tribal councils, and partner organizations.
+By the end of this module, you'll be able to create clear, informative maps that communicate spatial information effectively to community members, tribal councils, and partner organizations, in both interactive and static formats.
+
+**📋 [View Example Maps](./resources/example-maps/)** - Review professional maps created for Quinhagak projects to see cartographic principles in action.
 
 ---
 
@@ -61,6 +63,11 @@ By the end of this module, you will be able to:
 10. ✅ Create maps for different audiences and purposes
 11. ✅ Document community infrastructure and planning
 12. ✅ Present spatial information clearly and professionally
+13. ✅ Create professional static maps in ArcGIS Pro
+14. ✅ Design and save reusable layout templates
+15. ✅ Apply cartographic storytelling principles
+16. ✅ Create accessible maps using color blindness simulators
+17. ✅ Export high-resolution maps for print and presentations
 
 ---
 
@@ -141,6 +148,20 @@ By the end of this module, you will be able to:
    - File format options
    - Exporting for different uses (print, screen, presentation)
    - Troubleshooting export issues
+
+9. [**Creating Static Maps in ArcGIS Pro**](./lessons/lesson9_arcgis_pro_static_maps.md) (2-3 hours)
+   - Understanding static vs. interactive vs. dynamic maps
+   - Cartographic storytelling principles
+   - Project data organization and management
+   - Working with coordinate projection systems
+   - Creating hillshade visualizations from DEMs
+   - Symbology and accessible color schemes
+   - Creating professional layouts (print, PowerPoint, posters)
+   - Adding map elements (legends, scale bars, north arrows, inset maps)
+   - Using custom logos and graphics
+   - Exporting at appropriate DPI (300+ for print)
+   - Saving and reusing layout templates (.pagx)
+   - Hands-on: AtlantGIS dataset example
 
 ---
 
@@ -293,6 +314,14 @@ Map Components:
 - [Cartographic Design Principles (ESRI)](https://www.esri.com/en-us/arcgis/products/arcgis-online/resources/cartographic-design)
 - [Color Schemes and Design (ColorBrewer)](https://colorbrewer2.org/)
 - [Map Design Best Practices](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/making-better-maps-design/)
+- [Color Hexa - Color Selection Tool](https://www.colorhexa.com/) - Hexadecimal codes and color blindness simulator
+
+### ArcGIS Pro Resources
+- [ArcGIS Pro Layouts Documentation](https://pro.arcgis.com/en/pro-app/latest/help/layouts/layout-files.htm)
+- [Creating Layout Templates](https://support.esri.com/en-us/knowledge-base/how-to-create-a-layout-template-from-a-layout-for-diffe-000028072)
+- [Adding Custom North Arrows](https://community.esri.com/t5/arcgis-pro-questions/layout-custom-north-arrow/td-p/1149595)
+- [Video: Saving Layout Templates](https://www.youtube.com/watch?v=dryU9r595t4)
+- [AtlantGIS Training Dataset](https://github.com/kacebe/AtlantGIS)
 
 ### Vector Data
 - [Understanding Vector Data](https://desktop.arcgis.com/en/arcmap/latest/manage-data/geodatabases/a-quick-tour-of-vector-data.htm)
@@ -308,6 +337,38 @@ Map Components:
 - [📄 Common Map Symbols Guide](./resources/map-symbols.pdf)
 - [📄 Color Selection Guide](./resources/color-guide.pdf)
 - [📄 Export Settings Reference](./resources/export-settings.pdf)
+
+### 📋 Example Maps
+- [**Example Maps Directory**](./resources/example-maps/) - Professional maps created for Quinhagak projects
+  - Infrastructure and planning maps
+  - Damage assessment maps
+  - Environmental monitoring maps
+  - Community reference maps
+  - *Review these before starting your own map projects to see effective cartographic design*
+
+### 🎨 Mapping Assets
+- [**Mapping Assets Library**](./resources/mapping-assets/) - Custom cartographic elements for professional maps
+  - **North Arrows** - Custom designs including Nalaquq Yup'ik cultural patterns
+  - **Scale Bars** - Metric, US Survey Feet, and dual-unit scales
+  - **Symbols** - Custom point/line/polygon symbols for Quinhagak features
+  - **Logos** - Organization branding (Qanirtuuq Inc., Nalaquq, partners) - Available as PNG files
+  - **Templates** - Pre-configured map layouts for common map types
+  - *Use these assets to maintain consistent, professional branding across all maps*
+
+### 📐 ArcGIS Pro Layout Templates
+- [**Layout Templates**](./resources/layouts/) - Reusable ArcGIS Pro layout files (.pagx)
+  - **Training Layout Template** - Standard layout from ArcGIS Pro training session
+  - Includes proper sizing for print (8.5" × 11") and PowerPoint (13.333" × 7.5")
+  - Pre-configured with professional map elements
+  - *Import these templates to save time and maintain consistency*
+
+### 🗺️ Training Example: Atlantis Map
+- [**Atlantis Static Map**](./resources/example-maps/Atlantis%20Static%20Map.png) - Complete example from ArcGIS Pro training
+  - Demonstrates hillshade visualization
+  - Shows proper use of inset maps for geographic context
+  - Includes all essential map elements (legend, scale bar, north arrow, title)
+  - 300 DPI export suitable for printing
+  - **Data Source:** [AtlantGIS Dataset](https://github.com/kacebe/AtlantGIS)
 
 ---
 
@@ -585,7 +646,7 @@ Climate change impacts including erosion, flooding, and permafrost degradation t
 ## 📂 Module Files
 
 ```
-module-05-cartography-arcgis-online/
+module-05-cartography/
 ├── README.md
 ├── module5_readme.md (this file)
 ├── lessons/
@@ -596,7 +657,8 @@ module-05-cartography-arcgis-online/
 │   ├── lesson5_cartography_principles.md
 │   ├── lesson6_styling_data.md
 │   ├── lesson7_map_elements.md
-│   └── lesson8_exporting_maps.md
+│   ├── lesson8_exporting_maps.md
+│   └── lesson9_arcgis_pro_static_maps.md
 ├── videos/
 │   ├── video-index.md
 │   └── transcripts/
@@ -607,6 +669,20 @@ module-05-cartography-arcgis-online/
 │   ├── activity-04-relocation-site-map.md
 │   └── sample-data/
 ├── resources/
+│   ├── example-maps/          ← Example maps from training sessions
+│   │   ├── README.md
+│   │   ├── Atlantis Static Map.png  (ArcGIS Pro training example)
+│   │   └── [Other PDF/PNG maps]
+│   ├── layouts/               ← ArcGIS Pro layout templates
+│   │   └── training layout template.pagx
+│   ├── mapping-assets/        ← Custom cartographic elements
+│   │   ├── README.md
+│   │   ├── north-arrows/      (Nalaquq custom north arrow designs)
+│   │   ├── scale-bars/        (custom scale bar styles)
+│   │   ├── symbols/           (custom map symbols)
+│   │   ├── logos/             (Nalaquq and partner logos)
+│   │   └── templates/         (map layout templates)
+│   ├── samples/
 │   ├── keyboard-shortcuts.pdf
 │   ├── map-symbols.pdf
 │   ├── color-guide.pdf

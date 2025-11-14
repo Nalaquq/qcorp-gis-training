@@ -54,9 +54,9 @@ This repository contains training materials, workflows, and resources developed 
 
 1. **[ArcGIS Online Basics](./modules/01-arcgis-online-basics/)** - User registration, dashboards, Story Maps, web maps
 2. **[Field Data Collection](./modules/02-field-data-collection/)** - Survey123, Field Maps, offline workflows, GNSS integration
-3. **[Digitizing Paper Maps](./modules/03-module-name/)** - Georeferencing, raster vs vector data *(In Development)*
-4. **[Spatial Analysis](./modules/04-module-name/)** - Geoprocessing tools, buffers, clip operations *(In Development)*
-5. **[Cartography with ArcGIS Online](./modules/05-cartography-arcgis-online/)** - Map design, vector data, web publishing
+3. **[Digitizing Paper Maps](./modules/03-digitizing-paper-maps/)** - Georeferencing, raster vs vector data *(In Development)*
+4. **[Spatial Analysis in ArcGIS Pro](./modules/04-spatial-analysis-arcgis-pro/)** - Geoprocessing tools, buffers, clip operations *(In Development)*
+5. **[Cartography](./modules/05-cartography/)** - Map design, vector data, web publishing, ArcGIS Pro layouts
 6. **[Remote Sensing: Satellite](./modules/06-module-name/)** - Landsat, Sentinel, Wayback imagery *(In Development)*
 7. **[Remote Sensing: Drones](./modules/07-remote-sensing-drones/)** - UAS data collection and processing
 
@@ -69,13 +69,15 @@ This repository contains training materials, workflows, and resources developed 
 
 ## Case Studies
 
-### [October 2025 Typhoon Damage Assessment](./case-studies/typhoon-damage-2025/)
+<!-- ### [October 2025 Typhoon Damage Assessment](./case-studies/typhoon-damage-2025/)
 
 Community-led damage mapping following the October 2025 typhoon that impacted Western Alaska coastal communities. This case study demonstrates:
 - Mobile damage survey design
 - Offline field data collection
 - Community-facing recovery mapping
-- Integration with emergency response partners
+- Integration with emergency response partners -->
+
+*Case studies in development. Check back for real-world applications of these GIS techniques.*
 
 ---
 
@@ -89,8 +91,8 @@ Community-led damage mapping following the October 2025 typhoon that impacted We
 
 ### For Instructors
 
-1. Review the [Training Schedule](./docs/training-schedule.md)
-2. Access [Instructor Notes](./docs/instructor-notes.md) for each module
+1. Review module-specific README files for learning objectives and lesson plans
+2. Check individual module directories for instructor notes and materials
 3. Download [Assessment Materials](./docs/assessments/)
 
 ---

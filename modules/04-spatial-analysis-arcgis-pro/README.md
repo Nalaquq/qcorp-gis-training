@@ -729,7 +729,7 @@ This module also touched on several additional important topics:
 
 After completing this module:
 
-- ✨ **Continue to:** [Module 5: Cartography in ArcGIS Online](../05-cartography-arcgis-online/)
+- ✨ **Continue to:** [Module 5: Cartography](../05-cartography/)
 - 📚 **Practice:** Perform spatial analysis on other community features
 - 🎯 **Apply:** Use these tools for real community planning questions
 - 💬 **Share:** Present your rusting rivers or historical analysis to community partners

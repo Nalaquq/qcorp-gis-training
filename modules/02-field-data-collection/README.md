@@ -102,7 +102,7 @@ By the end of this module, you will be able to:
    - Coordinate systems and projections workflows
    - OPUS post-processing and data management
 
-4. [**Field Data Collection Techniques: Don't start yet**](./lessons/04-field-techniques.md)
+4. **Field Data Collection Techniques** *(In Development - Don't start yet)*
    - Best practices for consistent data collection
    - Taking useful field photos
    - Recording detailed observations
@@ -112,7 +112,7 @@ By the end of this module, you will be able to:
    - Troubleshooting sync issues
    - Managing data conflicts
 
-6. [**Visualization & Storytelling: Don't Start yet**](./lessons/06-visualization.md)
+6. **Visualization & Storytelling** *(In Development - Don't start yet)*
    - Creating dashboards with real-time updates
    - Building Story Maps with before/after imagery
    - Sharing maps with community partners
@@ -387,7 +387,7 @@ After completing this module:
 
 - ✨ **Continue to:** [Module 3: Digitizing Paper Maps](../03-digitizing-paper-maps/)
 - 🔄 **Review:** [Module 1: ArcGIS Online Basics](../01-arcgis-online-basics/)
-- 📚 **Explore:** [Case Study: Typhoon Damage 2025](../../case-studies/typhoon-damage-2025/)
+<!-- - 📚 **Explore:** [Case Study: Typhoon Damage 2025](../../case-studies/typhoon-damage-2025/) -->
 
 ---
 
