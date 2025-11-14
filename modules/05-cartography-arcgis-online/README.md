@@ -16,6 +16,8 @@ This module introduces cartography principles and map-making using ArcGIS Online
 
 By the end of this module, you'll be able to create clear, informative maps that communicate spatial information effectively to community members, tribal councils, and partner organizations.
 
+**📋 [View Example Maps](./resources/example-maps/)** - Review professional maps created for Quinhagak projects to see cartographic principles in action.
+
 ---
 
 ## Real-World Scenarios
@@ -308,6 +310,23 @@ Map Components:
 - [📄 Common Map Symbols Guide](./resources/map-symbols.pdf)
 - [📄 Color Selection Guide](./resources/color-guide.pdf)
 - [📄 Export Settings Reference](./resources/export-settings.pdf)
+
+### 📋 Example Maps
+- [**Example Maps Directory**](./resources/example-maps/) - Professional maps created for Quinhagak projects
+  - Infrastructure and planning maps
+  - Damage assessment maps
+  - Environmental monitoring maps
+  - Community reference maps
+  - *Review these before starting your own map projects to see effective cartographic design*
+
+### 🎨 Mapping Assets
+- [**Mapping Assets Library**](./resources/mapping-assets/) - Custom cartographic elements for professional maps
+  - **North Arrows** - Custom designs including Yup'ik cultural patterns
+  - **Scale Bars** - Metric, US Survey Feet, and dual-unit scales
+  - **Symbols** - Custom point/line/polygon symbols for Quinhagak features
+  - **Logos** - Organization branding (Qanirtuuq Inc., Nalaquq, partners)
+  - **Templates** - Pre-configured map layouts for common map types
+  - *Use these assets to maintain consistent, professional branding across all maps*
 
 ---
 
@@ -607,6 +626,17 @@ module-05-cartography-arcgis-online/
 │   ├── activity-04-relocation-site-map.md
 │   └── sample-data/
 ├── resources/
+│   ├── example-maps/          ← NEW: Drop example maps here
+│   │   ├── README.md
+│   │   └── [PDF/PNG maps]
+│   ├── mapping-assets/        ← NEW: Custom cartographic elements
+│   │   ├── README.md
+│   │   ├── north-arrows/      (custom north arrow designs)
+│   │   ├── scale-bars/        (custom scale bar styles)
+│   │   ├── symbols/           (custom map symbols)
+│   │   ├── logos/             (organization logos)
+│   │   └── templates/         (map layout templates)
+│   ├── samples/
 │   ├── keyboard-shortcuts.pdf
 │   ├── map-symbols.pdf
 │   ├── color-guide.pdf

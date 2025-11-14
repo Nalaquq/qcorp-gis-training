@@ -31,10 +31,13 @@ By the end of this module, you will be able to:
 1. ✅ Design and deploy a mobile damage survey using **Survey123** and **ArcGIS Field Maps**
 2. ✅ Collect geotagged photos, videos, and damage assessments directly from the field
 3. ✅ Work offline using downloaded map areas
-4. ✅ Integrate **Emlid Reach RS3** GNSS receiver for sub-meter GPS accuracy
-5. ✅ Sync collected data to **ArcGIS Online**
-6. ✅ Publish results using **ArcGIS Dashboards** or **StoryMaps**
-7. ✅ Create a community-facing "Typhoon Recovery Map"
+4. ✅ **Set up and operate Emlid Reach RS3 DGNSS** for centimeter-level accuracy
+5. ✅ **Understand and apply datums, coordinate systems, and projections**
+6. ✅ **Select survey locations based on community needs and project requirements**
+7. ✅ **Collect ground control points (GCPs) for drone mapping**
+8. ✅ **Use OPUS post-processing for establishing permanent control points**
+9. ✅ Sync collected data to **ArcGIS Online**
+10. ✅ Publish results using **ArcGIS Dashboards** or **StoryMaps**
 
 ---
 
@@ -75,6 +78,11 @@ By the end of this module, you will be able to:
 
 ### 📖 Lessons
 
+**🆕 Start Here:** [**Field Data Collection Terminology**](./lessons/terminology.md)
+   - Key terms explained at 8th grade reading level
+   - DGNSS, Datums, GCPs, RTK, Coordinate Systems
+   - Quick reference guide for all GPS/survey concepts
+
 1. [**Survey Design Fundamentals**](./lessons/01-survey-design.md)
    - Understanding survey questions and field types
    - Creating forms in Survey123 Connect
@@ -85,10 +93,14 @@ By the end of this module, you will be able to:
    - Downloading maps for field use
    - Managing storage and updates
 
-3. [**GNSS Integration**](https://docs.emlid.com/reachrs3/integration/arcgis-survey123/)
-   - Connecting Emlid Reach RS3 via Bluetooth
-   - Understanding GPS accuracy and metadata
-   - When high-accuracy GPS matters
+3. [**🆕 DGNSS Field Data Collection**](./lessons/03-dgnss-field-collection.md)
+   - **Complete Emlid Reach RS3 field training guide**
+   - Base station and rover setup procedures
+   - Real field scenarios: SWOT ground truthing, Nunalleq datums
+   - Survey site selection based on community needs
+   - Choosing the right tool (Survey123/Emlid Flow/Field Maps)
+   - Coordinate systems and projections workflows
+   - OPUS post-processing and data management
 
 4. [**Field Data Collection Techniques: Don't start yet**](./lessons/04-field-techniques.md)
    - Best practices for consistent data collection
@@ -107,25 +119,30 @@ By the end of this module, you will be able to:
 
 ---
 
-## 🎥 Video Tutorials (Not finished)
+## 🎥 Video Tutorials
 
-### Getting Started
+**📺 [Complete Video Index](./videos/video-index.md)** - Organized by topic and skill level
+
+### Essential Videos
+
+#### Survey123 & Field Maps
 - [**Survey123 Basics**](https://mediaspace.esri.com/playlist/details/1_6l4iepo8/categoryId/238781803) (5 min)
 - [**Field Maps Walkthrough**](https://www.esri.com/en-us/arcgis/products/arcgis-field-maps/resources#settingup) (12 min)
-
-### Hands-On Demonstrations
 - [**Creating Your First Survey**](https://survey123.arcgis.com/share/f2093d08a49a4cb79d4093c1ba57a859) (5 min)
-- [**Downloading Offline Maps**](./videos/04-offline-maps.md) (10 min)
-- [**Collecting Data in the Field**](./videos/05-field-collection.md) (18 min)
-- [**Using the Emlid Reach RS3**](https://www.youtube.com/watch?v=6Ju4bLvkdRc) (8 min)
+
+#### 🆕 DGNSS / Emlid Reach RS3 (Required for high-accuracy work)
+- **[Reach RS3 Base and Rover Setup](https://www.youtube.com/watch?v=6Ju4bLvkdRc) (8 min) - MUST WATCH**
 - [**What is a Differential GPS?**](https://www.youtube.com/watch?v=8DAImUwJ_gE) (2 min)
-- [**Publishing a Damage Assessment Dashboard**](./videos/07-dashboard.md) (25 min)
+- [**Emlid RS3 Documentation**](https://docs.emlid.com/reachrs3/) - Complete reference
+- [**Emlid Flow App Guide**](https://docs.emlid.com/emlid-flow/survey-with-ef/points/collector/)
+- [**OPUS Workflow**](https://docs.emlid.com/reachrs3/base-setup/determining-base-position/online-post-processing-services/opus-workflow/)
 
-### Advanced Topics
-- [**Working Without Internet**](./videos/08-offline-workflows.md) (8 min)
-- [**Quality Control for Field Data**](./videos/09-quality-control.md) (10 min)
+#### Integration & Advanced
+- [**Survey123 + RS3 Integration**](https://docs.emlid.com/reachrs3/integration/arcgis-survey123/)
+- [**Skydio X10 Drone RTK**](https://docs.emlid.com/reachrs3/integration/skydio-rtk/)
+- [**Publishing Dashboards**](./videos/07-dashboard.md) (25 min)
 
-*Note: Video links include transcripts and captions*
+*Note: Video links include transcripts and captions. See [Complete Video Index](./videos/video-index.md) for 20+ organized tutorials.*
 
 ---
 
@@ -195,18 +212,29 @@ Build a community-facing map showing:
 ## 📚 Resources
 
 ### Official Documentation
+
+#### ESRI Resources
 - [ArcGIS Field Maps Fundamentals](https://www.esri.com/training/catalog/5e6f5b3011d36d0a34b556c3/arcgis-field-maps-fundamentals/) - Esri Training
 - [Survey123 Training Resources](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources) - Additional Survey 123 Resources
 - [Survey123 Gallery & Templates](https://doc.arcgis.com/en/survey123/get-started/whatissurvey123.htm) - Survey 123 Official Documentation
 - [Offline Collection Guide](https://doc.arcgis.com/en/field-maps/help/offline.htm) - Field Maps documentation
 - [ArcGIS Dashboards Overview](https://www.esri.com/en-us/arcgis/products/arcgis-dashboards/overview)
 - [Esri Wayback Imagery](https://livingatlas.arcgis.com/wayback/) - Historical satellite images
-- [Emlid Reach RS3 Setup Guide](https://docs.emlid.com/reachrs3/)
+
+#### 🆕 DGNSS / High-Accuracy GPS
+- [**Emlid Reach RS3 Complete Documentation**](https://docs.emlid.com/reachrs3/) - Primary reference
+- [**Base Station Setup Guide**](https://docs.emlid.com/reachrs3/base-setup/)
+- [**Choosing Base Setup Method**](https://docs.emlid.com/reachrs3/base-setup/choosing-base-setup-method/)
+- [**NOAA OPUS Service**](https://www.ngs.noaa.gov/OPUS/) - Precise positioning
+- [**NGS Datums and Coordinate Systems**](https://geodesy.noaa.gov/datums/)
+- [**NOAA Geodetic Toolkit**](https://geodesy.noaa.gov/TOOLS/) - Alaska resources
 
 ### Quick Reference Guides
+- [📄 **Field Data Collection Terminology**](./lessons/terminology.md) - **Start here for definitions**
 - [📄 Survey123 Field Types Cheat Sheet](https://doc.arcgis.com/en/survey123/browser/create-surveys/quickreferencecreatesurveys.htm)
 - [📄 How a GPS works](https://geospatial.trimble.com/en/resources/blog/gps-101-learn-how-gps-works)
 - [📄 Upload Types for Survey 123](https://doc.arcgis.com/en/survey123/browser/create-surveys/mediafiles.htm)
+- [📄 Emlid RS3 Quick Start](https://docs.emlid.com/reachrs3/quickstart/) - Field setup checklist
 
 ### Sample Forms
 - [Lost Person Behavior Form](https://arcg.is/0TrnDv0) 
@@ -244,6 +272,14 @@ Your reflection report should address:
 - Include helpful hints in question descriptions
 - Make required fields obvious
 
+### 🆕 DGNSS / High-Accuracy GPS
+- **Always record base station coordinates** - Take photo and write it down
+- **Measure antenna heights carefully** - Use tape measure, not estimates
+- **Level your equipment** - Check bubble level before starting
+- **Wait for "Fix" solution** - Don't collect points on Float or Single
+- **Manually enter known point coordinates** - Don't rely on auto-positioning
+- **Document everything** - Photos, notes, conditions, setup details
+
 ### Offline Workflows
 - Download maps while connected to Wi-Fi
 - Verify map scale and detail levels
@@ -261,6 +297,7 @@ Your reflection report should address:
 - Fill out all required fields completely
 - Double-check coordinates and accuracy
 - Review data before syncing
+- Verify datum and coordinate system match project requirements
 
 ---
 
