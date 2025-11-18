@@ -164,6 +164,18 @@ function runAnalysis(earliest, latest, statusLabel, thresholdSlider, grayscaleCh
 
   // Export the binary classification to Google Drive.
   Export.image.toDrive(classificationExportParams);
+
+  // --- NEW: Export NIR composite (B8) as a separate raster ---
+  var nirExportParams = {
+    image: clippedComposite.select('B8'),  // Single-band NIR composite, scaled 0–1
+    description: 'NIR_Composite_B8',
+    scale: 10,
+    region: drawnGeometry,
+    fileFormat: 'GeoTIFF',
+    maxPixels: 1e9
+  };
+
+  Export.image.toDrive(nirExportParams);
 }
 
 // Create UI Panel
@@ -397,7 +409,8 @@ var grayscaleCheckbox = ui.Checkbox({
 panel.add(grayscaleCheckbox);
 
 var colorNote = ui.Label({
-  value: 'Note: Exported GeoTIFF is always binary (0=Water, 1=Land)',
+  value: 'Note: Exported GeoTIFF (classification) is always binary (0=Water, 1=Land).\n' +
+         'An additional GeoTIFF is exported for NIR (B8) composite.',
   style: {
     fontSize: '10px',
     color: 'gray',
@@ -445,7 +458,13 @@ panel.add(ui.Panel({
 }));
 
 var infoLabel = ui.Label({
-  value: 'Method: NIR threshold classification\nResolution: 10m\nBand: B8 (NIR 835nm)\nCloud coverage: < 5%\nOutput: Binary raster (0=Water, 1=Land)',
+  value: 'Method: NIR threshold classification\n' +
+         'Resolution: 10m\n' +
+         'Band: B8 (NIR 835nm)\n' +
+         'Cloud coverage: < 5%\n' +
+         'Outputs:\n' +
+         '  • Binary raster (0=Water, 1=Land)\n' +
+         '  • NIR composite (B8) raster',
   style: {
     fontSize: '11px',
     color: 'gray',

@@ -90,12 +90,12 @@ Near Quinhagak, the rusting phenomenon appears to occur primarily in **floodplai
 
 Review the following resources:
 
-1. **Scientific American Article** (10 min)
+1. **Scientific American Article** (20 min)
    - https://www.scientificamerican.com/article/why-are-alaskas-rivers-turning-orange/
    - Note key findings about heavy metals
    - Understand ecological impacts
 
-2. **National Geographic Article** (10 min)
+2. **National Geographic Article** (20 min)
    - https://www.nationalgeographic.com/environment/article/alaska-orange-rivers-rusting
    - Focus on fish impacts
    - Note visual signatures in imagery
@@ -369,7 +369,7 @@ If time allows:
 
 ---
 
-## Part 6: Creating Analysis Maps (20 minutes)
+## Part 6: Creating Analysis Maps (1 hour)
 
 ### Map 1: Affected Streams Overview
 
@@ -426,7 +426,7 @@ If time allows:
 
 ---
 
-## Part 7: Documentation and Reporting (10 minutes)
+## Part 7: Documentation and Reporting (30 minutes)
 
 ### Create Summary Report
 
