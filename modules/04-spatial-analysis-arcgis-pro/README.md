@@ -355,6 +355,46 @@ Choose one scenario:
 
 ---
 
+### Activity 9: Community Placename and Trail Mapping with Search and Rescue
+**Time:** 180 minutes
+**Training Date:** November 20, 2025
+
+**Real Community Session:** Work with Quinhagak Search and Rescue volunteers to document traditional Yup'ik placenames and trails using traditional knowledge and GPS data.
+
+**The Task:** Collaborate with community knowledge holders to add placenames, import trail data from GPS devices, and identify dangerous crossings for a grant application.
+
+Steps:
+1. Review and add placenames to existing feature layer:
+   - https://services6.arcgis.com/HDgSl3KvKJMed1UY/arcgis/rest/services/Quinhagak_Yuuyaraq_Place_Names/FeatureServer
+2. Extract GPX trail data from Garmin devices using Basecamp
+3. Convert GPX to ArcGIS layers using GPX to Features tool
+4. Create dangerous crossings layer for trail safety
+5. Reference ELOKA Yup'ik Atlas for additional placenames:
+   - https://eloka.nsidc.org/yupik/atlas/index.html
+6. Support Alaska DOT Community Trail Marking Grant application:
+   - https://dot.alaska.gov/nreg/wintertrails/
+7. Add placename to help NSF team mark primary channel at Uyak River
+
+**Skills Practiced:**
+- Editing hosted feature layers
+- GPX to layer conversion
+- Creating points, lines, and polygon features
+- Integrating traditional knowledge with GIS
+- Grant application support mapping
+
+**Deliverables:**
+- Updated placename layer with new traditional knowledge
+- Trail layer from converted GPS data
+- Dangerous crossings layer
+- Grant application map for Alaska DOT
+
+**Community Outcome:**
+Following this session, SAR volunteers committed to monitoring Uyak River flow direction in spring 2026, and the data will support both the trail marking grant application and NSF research.
+
+[📋 Activity Instructions](./activities/activity-09-placename-trail-mapping.md)
+
+---
+
 ## 📚 Resources
 
 ### Official Documentation
@@ -410,7 +450,8 @@ To complete this module, you must:
 6. ✅ Perform buffer analysis (Activity 6)
 7. ✅ Complete rusting rivers environmental analysis (Activity 7)
 8. ✅ Conduct comprehensive spatial analysis (Activity 8)
-9. ✅ Submit final project and reflection document (2-3 pages)
+9. ✅ Complete community placename and trail mapping (Activity 9)
+10. ✅ Submit final project and reflection document (2-3 pages)
 
 ### Final Project Options
 
@@ -639,48 +680,21 @@ The skills from this module support:
 04-spatial-analysis-arcgis-pro/
 ├── README.md (this file)
 ├── lessons/
-│   ├── lesson1_projections.md
-│   ├── lesson2_adding_content.md
-│   ├── lesson3_data_management.md
-│   ├── lesson4_symbology.md
-│   ├── lesson5_creating_features.md
-│   ├── lesson6_buffers.md
-│   ├── lesson7_spatial_tools.md
-│   ├── lesson8_raster_data.md
-│   ├── lesson9_graphics.md
-│   └── lesson10_exporting.md
+│   └── lesson1_projections.md
+│   (lessons 2-10 in development)
 ├── activities/
-│   ├── activity-01-projections.md
-│   ├── activity-02-adding-content.md
-│   ├── activity-03-geodatabase.md
-│   ├── activity-04-symbology.md
-│   ├── activity-05-tracing.md
-│   ├── activity-06-buffers.md
 │   ├── activity-07-rusting-rivers.md
-│   ├── activity-08-comprehensive-analysis.md
-│   └── sample-output/
+│   └── activity-09-placename-trail-mapping.md
+│   (activities 1-6, 8 in development)
 ├── resources/
-│   ├── keyboard-shortcuts.pdf
-│   ├── geoprocessing-quick-ref.pdf
-│   ├── projection-decision-tree.pdf
-│   ├── spatial-tools-guide.pdf
+│   ├── spatial-tools-guide.md
 │   └── epsg-codes-alaska.md
-├── assessment/
-│   ├── rubric.md
-│   └── submit.md
-├── troubleshooting/
-│   ├── README.md
-│   ├── coordinate-systems.md
-│   ├── geoprocessing-errors.md
-│   ├── editing-issues.md
-│   ├── performance.md
-│   └── agol-connectivity.md
-├── case-studies/
-│   ├── balloon-projections.md
-│   ├── rusting-rivers.md
-│   └── historical-features.md
+├── assets/
+│   └── images/
 └── instructor-notes.md
 ```
+
+**Note:** Many lesson and activity files are placeholders in the README describing planned content. Files marked "in development" will be created as the training program progresses.
 
 ---
 

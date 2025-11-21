@@ -36,8 +36,10 @@ By the end of this module, you will be able to:
 6. ✅ **Select survey locations based on community needs and project requirements**
 7. ✅ **Collect ground control points (GCPs) for drone mapping**
 8. ✅ **Use OPUS post-processing for establishing permanent control points**
-9. ✅ Sync collected data to **ArcGIS Online**
-10. ✅ Publish results using **ArcGIS Dashboards** or **StoryMaps**
+9. ✅ **Transfer data between Garmin GPS devices and ArcGIS Pro**
+10. ✅ **Understand handheld GPS accuracy limitations compared to DGNSS**
+11. ✅ Sync collected data to **ArcGIS Online**
+12. ✅ Publish results using **ArcGIS Dashboards** or **StoryMaps**
 
 ---
 
@@ -67,6 +69,7 @@ By the end of this module, you will be able to:
 ### Hardware
 - Smartphone or tablet (iOS or Android)
 - **Emlid Reach RS3** GNSS receiver
+- **Garmin handheld GPS** (GPSMAP 67i or similar)
 - Starlink Roam kit for field connectivity
 
 ### Required License
@@ -102,17 +105,27 @@ By the end of this module, you will be able to:
    - Coordinate systems and projections workflows
    - OPUS post-processing and data management
 
-4. **Field Data Collection Techniques** *(In Development - Don't start yet)*
+4. [**🆕 Handheld Garmin GPS Data Collection**](./lessons/04-handheld-garmin-collection.md)
+   - **Understanding accuracy limitations vs DGNSS**
+   - Collecting waypoints and tracks on Garmin devices
+   - Using Garmin Basecamp software
+   - GPX file format and conversions
+   - Bidirectional data transfer (Garmin ↔ ArcGIS Pro)
+   - Converting ArcGIS layers to GPX
+   - Installing BirdsEye satellite imagery
+   - When to use handheld GPS vs DGNSS
+
+5. **Field Data Collection Techniques** *(In Development - Don't start yet)*
    - Best practices for consistent data collection
    - Taking useful field photos
    - Recording detailed observations
 
-5. [**Data Synchronization**](https://doc.arcgis.com/en/arcgis-online/manage-data/take-maps-offline.htm)
+6. [**Data Synchronization**](https://doc.arcgis.com/en/arcgis-online/manage-data/take-maps-offline.htm)
    - Syncing offline data to ArcGIS Online
    - Troubleshooting sync issues
    - Managing data conflicts
 
-6. **Visualization & Storytelling** *(In Development - Don't start yet)*
+7. **Visualization & Storytelling** *(In Development - Don't start yet)*
    - Creating dashboards with real-time updates
    - Building Story Maps with before/after imagery
    - Sharing maps with community partners
@@ -209,6 +222,42 @@ Build a community-facing map showing:
 
 ---
 
+### Activity 5: Garmin Data Transfer Workshop
+**Time:** 180 minutes
+**Training Date:** November 13, 2025
+
+**The Task:** Learn complete workflows for transferring data between Garmin handheld GPS devices, ArcGIS Pro, and ArcGIS Online
+
+This hands-on workshop covers:
+1. **Garmin → GIS workflow:**
+   - Extract GPX from Garmin 67i containing SAR winter trails
+   - Install and use Garmin Basecamp
+   - Convert GPX to ArcGIS Pro layers
+   - Edit symbology and trail segments
+   - Export back to GPX
+   - Load to another Garmin device
+
+2. **ArcGIS Online → Garmin workflow:**
+   - Clone the Quinhagak Yuuyaraq Place Names layer
+   - (Collected by Joe Pleasant for NVK Elder Place Name project, 1990)
+   - Convert to GPX format
+   - Edit symbology in Basecamp
+   - Load to Garmin device
+
+3. **BirdsEye satellite imagery:**
+   - Download high-resolution satellite imagery in Basecamp
+   - Load to both Garmin devices for the Quinhagak Traditional Land Use Area
+
+**Real-World Data:**
+- Winter trails marked by Quinhagak Search and Rescue volunteers
+- Placenames: https://services6.arcgis.com/HDgSl3KvKJMed1UY/arcgis/rest/services/Quinhagak_Yuuyaraq_Place_Names/FeatureServer
+
+**Deliverable:** Both Garmin devices loaded with trails, placenames, and satellite imagery; edited data saved in ArcGIS Pro project
+
+[📋 Activity Instructions](./activities/activity-05-garmin-data-transfer.md)
+
+---
+
 ## 📚 Resources
 
 ### Official Documentation
@@ -228,6 +277,13 @@ Build a community-facing map showing:
 - [**NOAA OPUS Service**](https://www.ngs.noaa.gov/OPUS/) - Precise positioning
 - [**NGS Datums and Coordinate Systems**](https://geodesy.noaa.gov/datums/)
 - [**NOAA Geodetic Toolkit**](https://geodesy.noaa.gov/TOOLS/) - Alaska resources
+
+#### 🆕 Handheld Garmin GPS
+- [**Garmin Basecamp Software**](https://www.garmin.com/en-US/software/basecamp/) - Free download
+- [**GPSMAP 67i User Manual**](https://www8.garmin.com/manuals/webhelp/GPSMAP67i/EN-US/)
+- [**GPX to Features Tool**](https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/gpx-to-features.htm) - ArcGIS Pro
+- [**Features to GPX Tool**](https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-gpx.htm) - ArcGIS Pro
+- [**BirdsEye Satellite Imagery**](https://www.garmin.com/en-US/p/10451) - Garmin support
 
 ### Quick Reference Guides
 - [📄 **Field Data Collection Terminology**](./lessons/terminology.md) - **Start here for definitions**
@@ -355,10 +411,12 @@ module-02-field-data-collection/
 ├── lessons/
 │   ├── 01-survey-design.md
 │   ├── 02-offline-maps.md
-│   ├── 03-gnss-integration.md
-│   ├── 04-field-techniques.md
-│   ├── 05-data-sync.md
-│   └── 06-visualization.md
+│   ├── 03-dgnss-field-collection.md
+│   ├── 04-handheld-garmin-collection.md
+│   ├── 05-field-techniques.md
+│   ├── 06-data-sync.md
+│   ├── 07-visualization.md
+│   └── terminology.md
 ├── videos/
 │   ├── video-index.md
 │   └── transcripts/
@@ -367,6 +425,7 @@ module-02-field-data-collection/
 │   ├── activity-02-offline-maps.md
 │   ├── activity-03-field-practice.md
 │   ├── activity-04-storymap.md
+│   ├── activity-05-garmin-data-transfer.md
 │   └── sample-data/
 ├── resources/
 │   ├── samples/

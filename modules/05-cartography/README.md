@@ -302,6 +302,58 @@ Map Components:
 
 ---
 
+### Activity 5: FAA Development Approval Map
+**Time:** 120 minutes
+**Training Date:** November 18, 2025
+
+**The Real Task:** Create a professional development proposal map for submission to the Federal Aviation Administration (FAA) and Native Village of Kwinhagak (NVK) requesting permission to build new housing and infrastructure near the Quinhagak airport.
+
+**Background:**
+Following a joint meeting with Qanirtuuq Incorporated and the FAA on November 18, 2025, prepare a map supporting Quinhagak's relocation strategy in response to Typhoons Merbok and Haloong. This map will accompany a letter requesting permission to begin planning.
+
+Map Components:
+1. **External Data Integration:**
+   - Calista Native Allotments layer (from ArcGIS Online)
+   - Buffer zones from allotment boundaries
+
+2. **Polygon Layers:**
+   - Residential housing areas
+   - Water treatment plant
+   - Native allotment boundaries (reference)
+
+3. **Line Layers:**
+   - Proposed sewer line
+   - Proposed new roads
+
+4. **Point Layers:**
+   - Evacuation building location
+
+5. **Map Elements:**
+   - Title: "Proposed map for NVK Non-objection"
+   - Legend showing all proposed development types
+   - Scale bar and north arrow
+   - Satellite imagery basemap
+
+**Key Skills:**
+- Importing external ArcGIS Online layers
+- Buffer analysis for regulatory compliance
+- Routing infrastructure to avoid restricted land
+- Creating maps for regulatory approval
+
+**Deliverable:**
+- Professional map exported as PNG/PDF
+- Clear visualization of proposed developments respecting Native Allotment boundaries
+- Suitable for FAA permit application and NVK non-objection request
+
+**Outcome:**
+This map successfully supported the approval process, resulting in NVK non-objection and FAA permission to begin zoning.
+
+[📋 Activity Instructions](./activities/activity-05-faa-development-approval-map.md)
+
+**📸 Example Map:** [FAA Proposed Development Map](./resources/example-maps/FAAproposedmap.png)
+
+---
+
 ## 📚 Resources
 
 ### ArcGIS Online Documentation
@@ -380,8 +432,9 @@ To complete this module, you must:
 2. ✅ Create point, line, and polygon layers successfully
 3. ✅ Complete Typhoon Merbok damage assessment map
 4. ✅ Complete village relocation site planning map
-5. ✅ Export both maps as professional-quality PDFs
-6. ✅ Present maps to instructor or group
+5. ✅ Complete FAA development approval map
+6. ✅ Export all maps as professional-quality PDFs/PNGs
+7. ✅ Present maps to instructor or group
 
 ### Map Quality Criteria
 
@@ -648,58 +701,30 @@ Climate change impacts including erosion, flooding, and permafrost degradation t
 ```
 module-05-cartography/
 ├── README.md
-├── module5_readme.md (this file)
 ├── lessons/
 │   ├── lesson1_web_maps_intro.md
 │   ├── lesson2_vector_data.md
-│   ├── lesson3_public_layers.md
 │   ├── lesson4_creating_layers.md
-│   ├── lesson5_cartography_principles.md
-│   ├── lesson6_styling_data.md
-│   ├── lesson7_map_elements.md
 │   ├── lesson8_exporting_maps.md
 │   └── lesson9_arcgis_pro_static_maps.md
+│   (lessons 3, 5, 6, 7 in development)
 ├── videos/
-│   ├── video-index.md
-│   └── transcripts/
+│   └── video-index.md
 ├── activities/
-│   ├── activity-01-interface-exploration.md
-│   ├── activity-02-vector-practice.md
 │   ├── activity-03-typhoon-merbok-map.md
 │   ├── activity-04-relocation-site-map.md
-│   └── sample-data/
+│   └── activity-05-faa-development-approval-map.md
+│   (activities 1-2 in development)
 ├── resources/
-│   ├── example-maps/          ← Example maps from training sessions
-│   │   ├── README.md
-│   │   ├── Atlantis Static Map.png  (ArcGIS Pro training example)
-│   │   └── [Other PDF/PNG maps]
-│   ├── layouts/               ← ArcGIS Pro layout templates
-│   │   └── training layout template.pagx
-│   ├── mapping-assets/        ← Custom cartographic elements
-│   │   ├── README.md
-│   │   ├── north-arrows/      (Nalaquq custom north arrow designs)
-│   │   ├── scale-bars/        (custom scale bar styles)
-│   │   ├── symbols/           (custom map symbols)
-│   │   ├── logos/             (Nalaquq and partner logos)
-│   │   └── templates/         (map layout templates)
-│   ├── samples/
-│   ├── keyboard-shortcuts.pdf
-│   ├── map-symbols.pdf
-│   ├── color-guide.pdf
-│   └── export-settings.pdf
-├── assessment/
-│   ├── rubric.md
-│   └── submit.md
-├── troubleshooting/
-│   ├── README.md
-│   ├── layer-visibility.md
-│   ├── saving-features.md
-│   ├── export-quality.md
-│   └── symbol-display.md
-└── case-studies/
-    ├── typhoon-merbok-mapping.md
-    └── village-relocation-planning.md
+│   └── example-maps/
+│       ├── FAAproposedmap.png
+│       ├── Atlantis Static Map.png
+│       └── (additional example PDFs)
+└── assessment/
+    └── rubric.md
 ```
+
+**Note:** Many lesson and activity files are placeholders in the README describing planned content. Files marked "in development" will be created as the training program progresses.
 
 ---
 

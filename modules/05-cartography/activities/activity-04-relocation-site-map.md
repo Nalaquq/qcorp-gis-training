@@ -705,4 +705,12 @@ These skills are directly applicable to real community planning projects and dem
 
 ---
 
-**Both your maps (Typhoon Merbok and Relocation Site) are now complete and ready for real-world use!**
+## Next Activity
+
+[Activity 5: FAA Development Approval Map](./activity-05-faa-development-approval-map.md)
+
+Apply these skills to create a regulatory approval map for FAA and NVK, incorporating external data sources and buffer analysis to ensure proposed developments respect Native Allotment boundaries.
+
+---
+
+**Your maps are building toward real-world community outcomes!**
