@@ -258,6 +258,41 @@ This hands-on workshop covers:
 
 ---
 
+### Activity 6: SWOT Satellite Ground Truthing
+**Time:** 4-6 hours
+**Training Date:** November 23, 2025
+
+**The Task:** Collect high-accuracy water level measurements at the boat harbor to ground-truth NASA's SWOT (Surface Water and Ocean Topography) satellite data for the NSF Qanirtuuq River avulsion risk modeling project.
+
+This hands-on activity covers:
+1. **Planning around satellite passes:**
+   - Using SWOT pass time schedules
+   - Timing field work for data collection windows
+
+2. **Base station calibration:**
+   - Setting up temporary datum with proper settling time (60+ minutes)
+   - Understanding temporary vs permanent datums
+
+3. **High-accuracy water level collection:**
+   - Collecting centimeter-accurate water surface elevations
+   - Multiple points per satellite pass
+   - Documenting conditions affecting readings
+
+4. **Post-processing workflow:**
+   - Exporting shapefiles from Emlid Flow
+   - OPUS/OPURS correction for highest accuracy
+
+**Real-World Impact:**
+- Your measurements help NASA calibrate SWOT satellite for Arctic regions
+- Data supports avulsion risk modeling for Quinhagak flood planning
+- Local contribution to global climate research
+
+**Deliverable:** OPUS-corrected shapefile with water level measurements, field notes, photos, and metadata
+
+[📋 Activity Instructions](./activities/activity-06-swot-ground-truthing.md)
+
+---
+
 ## 📚 Resources
 
 ### Official Documentation
@@ -426,6 +461,7 @@ module-02-field-data-collection/
 │   ├── activity-03-field-practice.md
 │   ├── activity-04-storymap.md
 │   ├── activity-05-garmin-data-transfer.md
+│   ├── activity-06-swot-ground-truthing.md
 │   └── sample-data/
 ├── resources/
 │   ├── samples/

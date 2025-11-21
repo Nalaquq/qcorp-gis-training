@@ -123,11 +123,16 @@ This training uses the ESRI ArcGIS platform:
 - **ArcGIS Dashboards** - Real-time data visualization
 - **ArcGIS StoryMaps** - Narrative web mapping
 - **ArcGIS Flight** (formerly Site Scan) - Drone data processing
+- **Garmin Basecamp** Used to transfer GPX files to and from Garmin 67i Units
 
 **Hardware:**
 - Emlid Reach RS3 GNSS receiver
-- DJI drones (various models)
+- SKYDIO X10 UAS
 - Starlink Roam kits for field connectivity
+- Laptops capatible with ArcGIS pro
+- External Storage 
+- Sony DSLR cameras for digitizing maps
+- Garmin 67i handheld GPS units
 
 ---
 
