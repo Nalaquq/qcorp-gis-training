@@ -75,15 +75,33 @@ By the end of this module, you will be able to:
    - Apply clip, erase, merge, and spatial join operations
    - Understand when to use each tool
 
-7. ✅ Work with raster data
-   - Adjust HSV (Hue, Saturation, Value) and contrast
-   - Clip rasters to specific extents
-   - Understand raster resolution through measurement
+7. ✅ Create and manage layers
+   - Create new feature classes in geodatabases
+   - Choose appropriate geometry types
+   - Configure attribute fields
+   - Understand feature classes vs shapefiles
 
-8. ✅ Export and share results
-   - Export layers, shapefiles, and packages
-   - Upload results to ArcGIS Online
-   - Understand different export formats
+8. ✅ Use edit tools effectively
+   - Merge multiple features into one
+   - Split features into separate parts
+   - Extend lines to connect features
+   - Clean GPS data for analysis
+
+9. ✅ Work with attribute fields and geometry
+   - Add new fields to existing layers
+   - Calculate geometry (length, area) in specific units
+   - Prepare accurate measurements for applications
+   - Understand coordinate system impacts
+
+10. ✅ Work with raster data
+    - Adjust HSV (Hue, Saturation, Value) and contrast
+    - Clip rasters to specific extents
+    - Understand raster resolution through measurement
+
+11. ✅ Export and share results
+    - Export layers, shapefiles, and packages
+    - Upload results to ArcGIS Online
+    - Understand different export formats
 
 ---
 
@@ -158,6 +176,31 @@ By the end of this module, you will be able to:
     - Uploading to ArcGIS Online
     - File type conversion (interoperability tools)
     - Time-saving export workflows
+
+11. [**Creating Layers in ArcGIS Pro**](./lessons/lesson11_creating_layers.md) (45 min)
+    - Creating new feature classes in geodatabases
+    - Choosing geometry types (point, line, polygon)
+    - Setting coordinate systems
+    - Adding and configuring attribute fields
+    - Feature classes vs shapefiles
+    - Best practices for layer creation
+
+12. [**Using Edit Tools - Merge, Split, and Extend**](./lessons/lesson12_edit_tools.md) (60 min)
+    - Merging multiple features into one
+    - Splitting features into separate parts
+    - Extending lines to connect features
+    - Cleaning GPS trail data
+    - Edit tools workflow for grant applications
+    - Quality assurance and troubleshooting
+
+13. [**Creating Attribute Fields and Calculating Geometry**](./lessons/lesson13_attribute_fields_geometry.md) (60 min)
+    - Adding new fields to existing layers
+    - Choosing appropriate field types
+    - Using Calculate Geometry for line lengths
+    - Calculating lengths in miles, kilometers, meters
+    - Calculating polygon areas
+    - Coordinate system impacts on measurements
+    - Preparing measurements for grant applications
 
 ---
 
@@ -395,6 +438,58 @@ Following this session, SAR volunteers committed to monitoring Uyak River flow d
 
 ---
 
+### Activity 10: SAR Trail Marking Grant Application
+**Time:** 180 minutes
+
+**Real-World Grant Application:** Prepare a complete GIS dataset and professional map for Alaska Department of Transportation Community Trail Marking Grant application.
+
+![ADOT Trail Marking Grant Map](../../assets/images/ADOT%20trail%20marking%20map_page-0001.jpg)
+*Example output: Professional grant map showing Eek to Goodnews Bay winter trail*
+
+**The Task:** Use GPS trail data to create accurate trail measurements and professional grant application materials.
+
+**Process:**
+1. Review Alaska DOT grant requirements and guidelines:
+   - https://dot.alaska.gov/nreg/wintertrails/
+2. Set up collaborative workspace in OneDrive for team editing
+3. Import and clean GPS trail data from Garmin devices
+4. Use edit tools to fix GPS inaccuracies:
+   - Split tool to divide trails with errors
+   - Merge tool to combine corrected segments (e.g., Quinhagak to Goodnews trail)
+   - Extend tool to close gaps from signal loss
+5. Create new fields in attribute table for grant requirements
+6. Calculate trail lengths using Calculate Geometry tool in US Survey Miles
+7. Create professional grant application map following cartography principles
+8. Export map as PDF for grant submission
+
+**Skills Practiced:**
+- Creating layers in ArcGIS Pro (Lesson 11)
+- Using edit tools: merge, split, extend (Lesson 12)
+- Adding attribute fields
+- Calculating geometry in specific units (Lesson 13)
+- Professional cartography and map layout
+- Grant application data preparation
+
+**Deliverables:**
+- Clean trail dataset with accurate attributes
+- Trail lengths calculated in US Survey Miles
+- Professional grant application map (PDF)
+- Complete grant application materials
+- Example output: See [`assets/ADOT trail marking map.pdf`](../../assets/ADOT%20trail%20marking%20map.pdf)
+
+**Real-World Impact:**
+This activity demonstrates how GIS supports community funding applications by providing accurate, professional spatial data. The techniques learned directly support successful grant applications for community safety improvements. The example map in the assets directory shows the professional quality expected for grant submissions.
+
+**Lessons Referenced:**
+- Lesson 11: Creating Layers
+- Lesson 12: Edit Tools (Merge, Split, Extend)
+- Lesson 13: Attribute Fields and Calculating Geometry
+- Module 5, Lesson 9: Graphics and Cartography
+
+[📋 Activity Instructions](./activities/activity-10-sar-trail-marking-grant.md)
+
+---
+
 ## 📚 Resources
 
 ### Official Documentation
@@ -451,7 +546,8 @@ To complete this module, you must:
 7. ✅ Complete rusting rivers environmental analysis (Activity 7)
 8. ✅ Conduct comprehensive spatial analysis (Activity 8)
 9. ✅ Complete community placename and trail mapping (Activity 9)
-10. ✅ Submit final project and reflection document (2-3 pages)
+10. ✅ Complete SAR Trail Marking Grant application (Activity 10)
+11. ✅ Submit final project and reflection document (2-3 pages)
 
 ### Final Project Options
 
@@ -680,21 +776,28 @@ The skills from this module support:
 04-spatial-analysis-arcgis-pro/
 ├── README.md (this file)
 ├── lessons/
-│   └── lesson1_projections.md
+│   ├── lesson1_projections.md
+│   ├── lesson11_creating_layers.md
+│   ├── lesson12_edit_tools.md
+│   └── lesson13_attribute_fields_geometry.md
 │   (lessons 2-10 in development)
 ├── activities/
 │   ├── activity-07-rusting-rivers.md
-│   └── activity-09-placename-trail-mapping.md
+│   ├── activity-09-placename-trail-mapping.md
+│   └── activity-10-sar-trail-marking-grant.md
 │   (activities 1-6, 8 in development)
 ├── resources/
 │   ├── spatial-tools-guide.md
 │   └── epsg-codes-alaska.md
-├── assets/
-│   └── images/
 └── instructor-notes.md
+
+../../assets/
+├── ADOT trail marking map.pdf
+└── images/
+    └── ADOT trail marking map_page-0001.jpg
 ```
 
-**Note:** Many lesson and activity files are placeholders in the README describing planned content. Files marked "in development" will be created as the training program progresses.
+**Note:** Many lesson and activity files are placeholders in the README describing planned content. Files marked "in development" will be created as the training program progresses. Lessons 11-13 and Activity 10 support real-world grant application workflows for community trail marking projects.
 
 ---
 
