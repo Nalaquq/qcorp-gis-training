@@ -354,6 +354,82 @@ This map successfully supported the approval process, resulting in NVK non-objec
 
 ---
 
+### Activity 6: Professional SAR Trail Marking Grant Map
+**Time:** 120 minutes
+**Prerequisites:** Module 4 Activity 10 (trail data preparation)
+
+**Real-World Grant Application:** Create a professional cartographic map for Alaska Department of Transportation Community Trail Marking Grant application using advanced cartography techniques.
+
+![SAR Trail Marking Grant Map](../../assets/images/adotfinalmap.jpg)
+*Example output: Professional grant map with inset, white map elements, and advanced symbology*
+
+**The Task:** Transform the prepared trail data from Module 4 into a publication-ready map using professional cartographic techniques including inset maps, advanced symbology, and optimized map elements.
+
+**Advanced Cartographic Techniques:**
+
+1. **Inset Map Creation:**
+   - Create inset map of Alaska using National Geographic basemap
+   - Add extent indicator showing project location
+   - Position strategically on layout
+
+2. **Optimized Visibility:**
+   - Change all text elements to white for dark satellite imagery
+   - Adjust scale bars and north arrows to white
+   - Configure halos and backgrounds for maximum readability
+
+3. **Advanced Symbology:**
+   - Style trails with distinct colors and widths
+   - Use cabin symbols for halfway houses
+   - Red circle markers for dangerous intersections
+   - Custom symbol sizes for optimal visibility
+
+4. **Professional Labels:**
+   - Configure community labels with white text
+   - Use advanced label settings for optimal placement
+   - Add halos for visibility on imagery
+   - Apply label classes for different feature types
+
+5. **Legend Design:**
+   - Format legend with custom labels
+   - Adjust size, spacing, and layout
+   - Choose appropriate background (white or semi-transparent)
+   - Organize items in logical order
+
+6. **Map Elements:**
+   - Professional title and subtitle
+   - Comprehensive data attribution
+   - High-quality north arrow and scale bar
+   - Contact information (if applicable)
+
+**Skills Practiced:**
+- Creating and styling inset maps with extent indicators
+- Adjusting map element colors for visibility
+- Advanced symbology configuration
+- Professional label placement and formatting
+- Legend design and customization
+- High-quality PDF export (300 DPI)
+- Cartographic design principles for grant applications
+
+**Deliverables:**
+- High-quality PDF map (300 DPI, print-ready)
+- JPG version for digital distribution
+- ArcGIS Pro project package with layout
+- Professional map suitable for grant submission
+- Example: See `assets/images/adotfinalmap.jpg`
+
+**Real-World Impact:**
+This activity demonstrates professional cartography skills that directly support grant funding success. The techniques learned create compelling visual documents that communicate project value to grant reviewers and funding agencies.
+
+**Lessons Referenced:**
+- Module 5, Lesson 5: Cartographic Design Principles
+- Module 5, Lesson 6: Styling and Symbolizing Data
+- Module 5, Lesson 7: Map Elements and Layout
+- Module 4, Activity 10: Trail data preparation
+
+[📋 Activity Instructions](./activities/activity-06-sar-grant-map.md)
+
+---
+
 ## 📚 Resources
 
 ### ArcGIS Online Documentation
@@ -433,8 +509,9 @@ To complete this module, you must:
 3. ✅ Complete Typhoon Merbok damage assessment map
 4. ✅ Complete village relocation site planning map
 5. ✅ Complete FAA development approval map
-6. ✅ Export all maps as professional-quality PDFs/PNGs
-7. ✅ Present maps to instructor or group
+6. ✅ Complete professional SAR Trail Marking Grant map with advanced cartography
+7. ✅ Export all maps as professional-quality PDFs/PNGs
+8. ✅ Present maps to instructor or group
 
 ### Map Quality Criteria
 
@@ -713,13 +790,16 @@ module-05-cartography/
 ├── activities/
 │   ├── activity-03-typhoon-merbok-map.md
 │   ├── activity-04-relocation-site-map.md
-│   └── activity-05-faa-development-approval-map.md
+│   ├── activity-05-faa-development-approval-map.md
+│   └── activity-06-sar-grant-map.md
 │   (activities 1-2 in development)
 ├── resources/
 │   └── example-maps/
 │       ├── FAAproposedmap.png
 │       ├── Atlantis Static Map.png
 │       └── (additional example PDFs)
+└── ../../assets/images/
+    └── adotfinalmap.jpg (Professional SAR Trail Marking Grant Map)
 └── assessment/
     └── rubric.md
 ```

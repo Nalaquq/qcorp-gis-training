@@ -14,10 +14,8 @@ You'll work with GPS trail data, clean and prepare it for analysis, calculate tr
 
 **Example Output:** See the completed grant map below for reference on the expected quality and content.
 
-![ADOT Trail Marking Grant Map](../../../assets/images/ADOT%20trail%20marking%20map_page-0001.jpg)
-*Example grant application map showing the Eek to Goodnews Bay winter trail. Map prepared by Patrick Jones and Byron Phillips from Garmin GPX data collected from SAR volunteers, November 20, 2025.*
-
-> **Note:** View the original PDF version at [`assets/ADOT trail marking map.pdf`](../../../assets/ADOT%20trail%20marking%20map.pdf)
+![ADOT Trail Marking Grant Map](../../../assets/images/adotfinalmap.jpg)
+*Example grant application map showing snowmachine trails and dangerous intersections. Map prepared by Patrick Jones and Byron Phillips from Garmin GPX data collected from SAR volunteers, November 2025.*
 
 ---
 
@@ -473,9 +471,9 @@ Total Trail System: 59.2 miles
 
 ### Task 6.1: Prepare Map Content
 
-**Reference:** Module 5 - Cartography, Lesson 9 - Graphics and Annotation
+**Reference:** Module 5 - Cartography, Lesson 9 - Graphics and Annotation, Activity 6 - SAR Trail Marking Grant Map
 
-**Example Map:** Review the completed example at `assets/ADOT trail marking map.pdf` to see the expected layout, elements, and professional quality for your grant application map.
+**Example Map:** Review the completed example at `assets/images/adotfinalmap.jpg` to see the expected layout, elements, and professional quality for your grant application map. See Module 5, Activity 6 for detailed cartographic techniques used to create this professional map.
 
 **Add Supporting Layers:**
 
@@ -556,7 +554,7 @@ Total Trail System: 59.2 miles
 **5. Data Sources and Credits:**
 - Insert → Text
 - Small text (8-10 pt)
-- Content example (see `assets/ADOT trail marking map.pdf`):
+- Content example (see `assets/images/adotfinalmap.jpg`):
   ```
   Map prepared by [Your Name] from Garmin GPX data
   collected from search and rescue volunteers on [Date]
@@ -631,11 +629,11 @@ Total Trail System: 59.2 miles
    - High quality for printing
 
 **Copy to Assets Directory:**
-- Save copy to: `assets/ADOT trail marking map.pdf`
+- Save copy to: `assets/images/adotfinalmap.jpg` (or PDF format if preferred)
 - This matches the example file created for this activity
 
 **Example Output:**
-- See completed example: `assets/ADOT trail marking map.pdf`
+- See completed example: `assets/images/adotfinalmap.jpg`
 - This professional map demonstrates the expected quality and content for grant applications
 
 ---
@@ -713,12 +711,12 @@ Total Trail System: 59.2 miles
    - Complete attribute information
    - Accurate length calculations
 
-2. **✅ Professional Grant Map (PDF)**
+2. **✅ Professional Grant Map (PDF/JPG)**
    - All required map elements
    - High-quality export (300 DPI)
    - Professional cartography
-   - File: `ADOT trail marking map.pdf`
-   - Example: See `assets/ADOT trail marking map.pdf`
+   - File: `SAR_Trail_Marking_Grant_Map_2025.pdf`
+   - Example: See `assets/images/adotfinalmap.jpg`
 
 3. **✅ Trail Data Summary**
    - Table showing all trails
@@ -815,14 +813,17 @@ This activity is based on an actual grant application process where GIS data was
 
 **Files Created:**
 - Trail dataset with accurate measurements
-- Professional map: `assets/ADOT trail marking map.pdf` (prepared by Patrick Jones and Byron Phillips)
+- Professional map: `assets/images/adotfinalmap.jpg` (prepared by Patrick Jones and Byron Phillips)
 - Complete application documentation
 
-**Map Features (see example PDF):**
-- Trail route from Eek through Quinhagak to Goodnews Bay
+**Map Features (see example map at `assets/images/adotfinalmap.jpg`):**
+- Snowmachine trail routes connecting communities
 - Satellite basemap showing terrain
-- Inset location map
+- Inset location map of Alaska with extent indicator
+- Halfway houses marked with cabin symbols
+- Dangerous intersections marked with red circles
 - Professional legend and map elements
+- White text and map elements for visibility
 - Proper data attribution
 
 **Lesson Learned:**

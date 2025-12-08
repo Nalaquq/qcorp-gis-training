@@ -443,8 +443,8 @@ Following this session, SAR volunteers committed to monitoring Uyak River flow d
 
 **Real-World Grant Application:** Prepare a complete GIS dataset and professional map for Alaska Department of Transportation Community Trail Marking Grant application.
 
-![ADOT Trail Marking Grant Map](../../assets/images/ADOT%20trail%20marking%20map_page-0001.jpg)
-*Example output: Professional grant map showing Eek to Goodnews Bay winter trail*
+![ADOT Trail Marking Grant Map](../../assets/images/adotfinalmap.jpg)
+*Example output: Professional grant map showing snowmachine trails, dangerous intersections, and halfway houses*
 
 **The Task:** Use GPS trail data to create accurate trail measurements and professional grant application materials.
 
@@ -475,7 +475,7 @@ Following this session, SAR volunteers committed to monitoring Uyak River flow d
 - Trail lengths calculated in US Survey Miles
 - Professional grant application map (PDF)
 - Complete grant application materials
-- Example output: See [`assets/ADOT trail marking map.pdf`](../../assets/ADOT%20trail%20marking%20map.pdf)
+- Example output: See `assets/images/adotfinalmap.jpg` for the completed professional map
 
 **Real-World Impact:**
 This activity demonstrates how GIS supports community funding applications by providing accurate, professional spatial data. The techniques learned directly support successful grant applications for community safety improvements. The example map in the assets directory shows the professional quality expected for grant submissions.
@@ -484,7 +484,7 @@ This activity demonstrates how GIS supports community funding applications by pr
 - Lesson 11: Creating Layers
 - Lesson 12: Edit Tools (Merge, Split, Extend)
 - Lesson 13: Attribute Fields and Calculating Geometry
-- Module 5, Lesson 9: Graphics and Cartography
+- Module 5, Activity 6: Professional map creation with advanced cartography techniques
 
 [📋 Activity Instructions](./activities/activity-10-sar-trail-marking-grant.md)
 
@@ -792,9 +792,8 @@ The skills from this module support:
 └── instructor-notes.md
 
 ../../assets/
-├── ADOT trail marking map.pdf
 └── images/
-    └── ADOT trail marking map_page-0001.jpg
+    └── adotfinalmap.jpg (Professional SAR Trail Marking Grant Map)
 ```
 
 **Note:** Many lesson and activity files are placeholders in the README describing planned content. Files marked "in development" will be created as the training program progresses. Lessons 11-13 and Activity 10 support real-world grant application workflows for community trail marking projects.
