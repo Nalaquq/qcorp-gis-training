@@ -1,0 +1,763 @@
+<!-- Root html template for report -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- for resolving relative paths -->
+    <base href="." />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, height=device-height, shrink-to-fit=yes, width=device-width"
+    />
+    <!-- use fullscreen mode on mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>nunalleq museum 11232025 | 3D Scan Capture Report</title>
+    <style>
+  /* background-color, color */
+  * {
+    background-color: transparent;
+    color: inherit;
+  }
+  body {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+  }
+  .subtitle {
+    color: rgba(0, 0, 0, 0.65);
+  }
+  tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  tr:active,
+  tr:hover,
+  tr:focus {
+    background-color: rgba(235, 235, 0, 0.2);
+  }
+
+  /* border */
+  table,
+  td,
+  th {
+    border: none;
+  }
+  .card {
+    border: solid 1px rgba(0, 0, 0, 0.2);
+  }
+
+  /* box-sizing */
+  * {
+    box-sizing: border-box;
+  }
+
+  /* border-collapse */
+  table {
+    border-collapse: collapse;
+  }
+
+  /* flex */
+  .cards {
+    align-content: normal;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  div.flex-auto {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  /* font-family */
+  body {
+    font-family: "Noto Sans", "Roboto", "Open Sans", sans-serif;
+  }
+
+  /* font-size */
+  body {
+    font-size: 14px;
+  }
+  h5, .font-size-smaller {
+    font-size: 0.9em;
+  }
+  .card {
+    font-size: 1em;
+  }
+  caption {
+    font-size: 1.05em;
+  }
+  .subtitle {
+    font-size: 1.1em;
+  }
+  .card > .title {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+  h1 {
+    font-size: 1.6em;
+  }
+
+  /* font-style */
+  .subtitle {
+    font-style: italic;
+  }
+
+  /* font-weight */
+  body {
+    font-weight: 400;
+  }
+  caption,
+  h1,
+  h2,
+  th,
+  .title {
+    font-weight: 600;
+  }
+
+  /* height */
+  .card {
+    min-height: 3em;
+  }
+  img {
+    height: auto;
+  }
+
+  /* letter-spacing */
+  caption,
+  h1,
+  h2,
+  .title {
+    letter-spacing: -0.1;
+  }
+
+  /* line-height */
+  body {
+    line-height: 1.4em;
+  }
+  .image-wrapper {
+    line-height: 0;
+  }
+  p {
+    line-height: 1.6em;
+  }
+
+  /* margin */
+  body {
+    margin: 0;
+  }
+  .card {
+    margin: 0.4em 0;
+  }
+  div.flex-auto {
+    margin: 0 0.4em;
+  }
+  table {
+    margin: 0.4em auto;
+  }
+  section {
+    margin: 1em 0;
+  }
+  #report {
+    margin: 1.6em auto;
+  }
+  h1,
+  h2,
+  .subtitle,
+  .title {
+    margin: 0 0 0.6em;
+  }
+  h1 {
+    /* space for positioned logo  */
+    margin-right: 150px;
+  }
+
+  /* overflow */
+  * {
+    overflow: visible;
+  }
+  body {
+    overflow: auto;
+  }
+
+  /* overflow-wrap, word-break, word-wrap */
+  td {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+  .word-break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+    word-wrap: normal;
+  }
+
+  /* padding */
+  html,
+  .no-padding {
+    padding: 0;
+  }
+  caption {
+    padding: 0.2em;
+  }
+  th,
+  td {
+    padding: 0.4em;
+  }
+  body,
+  .card:not(.no-padding) {
+    padding: 1em;
+  }
+  h1 {
+    /* align below logo top  */
+    padding-top: 15px;
+  }
+
+  /* position */
+  #report {
+    position: relative;
+  }
+  #logo {
+    position: absolute;
+    left: unset;
+    bottom: unset;
+    right: 0;
+    top: 0;
+  }
+
+  /* table */
+  table.equal {
+    display: table;
+    table-layout: fixed;
+  }
+
+  /* text-align */
+  caption {
+    text-align: center;
+  }
+  body,
+  table.key-value,
+  table.key-value td {
+    text-align: left;
+  }
+  .key-value th {
+    text-align: right;
+  }
+
+  .image-wrapper {
+    vertical-align: middle;
+  }
+
+  /* width, min/max */
+  body,
+  div:not(.flex-auto),
+  html,
+  img,
+  section,
+  table {
+    width: 100%;
+  }
+  #logo {
+    width: 90px;
+  }
+  th,
+  td {
+    max-width: 15em;
+  }
+  table.key-value td,
+  table.key-value th {
+    min-width: 9em;
+  }
+  div.flex-auto {
+    width: 27em;
+  }
+  #report {
+    max-width: 60em;
+    min-width: 30em;
+    width: 100%;
+  }
+
+  /***********************************************************************************************
+   Media Specific
+  ***********************************************************************************************/
+
+  @media print {
+    @page {
+      margin: 0.5in;
+    }
+    @page :footer, :header {
+      display: none;
+    }
+
+    /* change screen settings */
+    body,
+    #report {
+      font-size: 10pt;
+      margin: 0;
+      overflow: visible;
+      padding: 0;
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+    }
+    .cards {
+      display: block;
+      margin: 0;
+    }
+    .card {
+      border: none;
+      border-top: solid 1px rgba(0, 0, 0, 0.1);
+      display: inline-block;
+      margin: 0.5% 0;
+      width: 100%;
+    }
+    div.flex-auto {
+      display: inline-block;
+      margin: 0 0.5%;
+      vertical-align: top;
+    }
+    div.print-col {
+      width: 48%;
+    }
+    div.print-full {
+      width: 98%;
+    }
+    tr:nth-child(odd) {
+      background-color: transparent;
+    }
+    tr {
+      border-top: solid 1px rgba(0, 0, 0, 0.1);
+    }
+    tr:first-child {
+      border-top: none;
+    }
+
+    /* break, page-break */
+    h1,
+    h2,
+    .subtitle,
+    .title {
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+    .card,
+    h1,
+    h2,
+    img,
+    table,
+    .title {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    /* orphans, widows */
+    h2 {
+      orphans: 0;
+      widows: 0;
+    }
+    p {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+</style>
+  </head>
+  <body>
+    <div id="report">
+      <div id="logo">
+        <!-- -->
+<svg width="90" viewBox="0 0 297 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0)">
+    <path
+      d="M252.65 61.0318V29.515C252.65 28.9036 253.15 28.4033 253.761 28.4033H259.041C259.653 28.4033 260.153 28.9036 260.153 29.515V60.9762C260.153 61.5876 259.653 62.0879 259.041 62.0879H253.761C253.15 62.1435 252.65 61.6432 252.65 61.0318Z"
+      fill="black"
+    />
+    <path
+      d="M256.429 23.3456C258.823 23.3456 260.764 21.4045 260.764 19.01C260.764 16.6154 258.823 14.6743 256.429 14.6743C254.035 14.6743 252.094 16.6154 252.094 19.01C252.094 21.4045 254.035 23.3456 256.429 23.3456Z"
+      fill="black"
+    />
+    <path
+      d="M119.6 23.735C119.6 20.789 121.879 19.0102 125.769 19.0102H140.997C141.497 19.0102 141.886 18.6211 141.886 18.1209V12.6735C141.886 12.1733 141.497 11.7842 140.997 11.7842H125.769C117.933 11.7842 112.431 16.6757 112.431 23.735C112.431 37.4089 136.162 39.5212 136.162 49.4709C136.162 52.6392 133.55 54.9182 129.937 54.9182H125.047C121.657 54.9182 118.878 52.139 118.878 48.7483V46.9696C118.878 46.3581 118.378 45.8579 117.766 45.8579H112.764C112.153 45.8579 111.653 46.3581 111.653 46.9696V48.7483C111.653 56.1411 117.655 62.0887 124.991 62.0887H129.826C137.44 62.0887 143.276 56.6414 143.276 49.4153C143.276 34.2961 119.6 31.3501 119.6 23.735Z"
+      fill="black"
+    />
+    <path
+      d="M239.756 12.8959V28.4041H228.252C221.138 28.4041 215.303 34.1294 215.303 41.3555V49.193C215.303 56.3079 221.138 62.1443 228.252 62.1443H245.814C246.425 62.1443 246.926 61.644 246.926 61.0326V12.8959C246.926 12.2844 246.425 11.7842 245.814 11.7842H240.812C240.201 11.8398 239.756 12.2844 239.756 12.8959ZM239.756 54.9182H228.252C225.084 54.9182 222.528 52.3057 222.528 49.193V41.3555C222.528 38.1871 225.14 35.6302 228.252 35.6302H239.756V54.9182Z"
+      fill="black"
+    />
+    <path
+      d="M202.409 29.5165V54.9189H193.795C190.571 54.8633 188.07 52.4731 188.07 49.2492V29.5165C188.07 28.9051 187.57 28.4048 186.959 28.4048H181.957C181.345 28.4048 180.845 28.9051 180.845 29.5165V49.2492C180.845 56.3641 186.625 62.0894 193.683 62.0894H202.353V67.1476C202.353 70.3715 199.185 72.7617 195.962 72.8173H189.126C188.515 72.8173 188.015 73.3176 188.015 73.929V78.9317C188.015 79.5431 188.515 80.0434 189.126 80.0434H195.962C203.409 80.0434 209.523 73.929 209.523 66.4806V29.5165C209.523 28.9051 209.022 28.4048 208.411 28.4048H203.409C202.909 28.4048 202.409 28.9051 202.409 29.5165Z"
+      fill="black"
+    />
+    <path
+      d="M284.106 28.4048H278.382C278.326 28.4048 278.326 28.4048 278.271 28.4048C271.157 28.4604 265.433 34.1301 265.433 41.2449V41.3005V49.138V49.1936C265.433 56.3641 271.157 62.0338 278.382 62.0338H284.106C284.162 62.0338 284.162 62.0338 284.217 62.0338C291.331 61.9782 297.056 56.3085 297.056 49.1936V49.138V41.3561V41.3005C297 34.1301 291.276 28.4048 284.106 28.4048ZM289.831 49.1936C289.831 52.4176 287.33 54.9189 284.106 54.9189C284.106 54.9189 284.106 54.9189 284.051 54.9189H278.326C276.881 54.8633 275.603 54.4186 274.658 53.6404C273.38 52.5843 272.602 51.0279 272.602 49.1936V41.3561C272.602 38.1322 275.103 35.6309 278.326 35.6309C278.326 35.6309 278.326 35.6309 278.382 35.6309H284.106C285.551 35.6864 286.83 36.1311 287.774 36.9093C289.053 37.9654 289.831 39.5218 289.831 41.3561V49.1936Z"
+      fill="black"
+    />
+    <path
+      d="M153.669 11.8398H148.667C148.055 11.8398 147.555 12.3401 147.555 12.9515V61.0327C147.555 61.6441 148.055 62.1444 148.667 62.1444H153.669C154.28 62.1444 154.78 61.6441 154.78 61.0327V12.896C154.78 12.2845 154.28 11.8398 153.669 11.8398Z"
+      fill="black"
+    />
+    <path
+      d="M166.673 45.2471L176.455 29.7388C176.844 29.1274 176.399 28.4048 175.732 28.4048H169.674C169.174 28.4048 168.674 28.6827 168.396 29.1274L159.337 43.0237C159.17 43.3016 159.115 43.5795 159.115 43.8574V46.6923C159.115 46.9702 159.226 47.3037 159.337 47.5261L168.396 61.4223C168.674 61.867 169.174 62.145 169.674 62.145H175.677C176.399 62.145 176.844 61.3668 176.455 60.7553L166.673 45.2471Z"
+      fill="black"
+    />
+    <path
+      d="M2.33447 71.0384C2.33447 75.4296 5.22444 78.4312 9.44825 79.3762C10.004 79.4873 11.5601 80.0432 21.1749 80.0432C29.9559 80.0432 80.1414 80.0432 80.1414 80.0432V28.9604C5.33559 51.3612 2.33447 66.5916 2.33447 71.0384Z"
+      fill="black"
+    />
+    <path
+      d="M0 40.0213C73.5275 25.7359 89.3112 17.009 89.3112 11.8396C89.3112 7.4484 80.0299 6.16995 80.0299 6.16995V0H0V40.0213Z"
+      fill="black"
+    />
+  </g>
+  <defs>
+    <clipPath id="clip0">
+      <rect width="297" height="80.0426" fill="white" />
+    </clipPath>
+  </defs>
+</svg>
+
+      </div>
+      <h1>nunalleq museum 11232025</h1>
+      <div class="subtitle">Scan generated at 11:11:17 PM UTC on November 24, 2025</div>
+      <section>
+
+        <div class="cards">
+          <div class="flex-auto print-col">
+            <!-- Feature Image -->
+            <div class="card image-wrapper no-padding">
+              
+              <img src="S1002950.JPG" title="Featured scan image" />
+              
+            </div>
+
+            <!-- Summary -->
+            <div class="card">
+              <div class="title">Summary</div>
+              <table class="key-value">
+                
+<tr>
+  <th>Scan ID</th>
+  <td class="font-size-smaller">
+    9bc04fb084a24257aef8b55c4e33d716</td>
+</tr>
+
+                
+<tr>
+  <th>Started</th>
+  <td >
+    10:36:40 PM UTC on November 24, 2025</td>
+</tr>
+
+                
+<tr>
+  <th>GPS Location</th>
+  <td >
+    (59.749749 deg, -161.902696 deg, 
+12.2 m)</td>
+</tr>
+
+              </table>
+            </div>
+
+            <!-- Stats -->
+            <div class="card">
+              <div class="title">Stats</div>
+              <table class="key-value">
+                
+<tr>
+  <th>Scan Area</th>
+  <td >
+    4878.5 sq ft</td>
+</tr>
+
+                
+<tr>
+  <th>Pillars</th>
+  <td >
+    4</td>
+</tr>
+
+                
+<tr>
+  <th>Flights</th>
+  <td >
+    2</td>
+</tr>
+
+                
+<tr>
+  <th>Batteries</th>
+  <td >
+    2</td>
+</tr>
+
+                
+<tr>
+  <th>Flight Time</th>
+  <td >
+    27 minutes</td>
+</tr>
+
+                
+                  
+<tr>
+  <th>GSD (Eff.)</th>
+  <td >
+    0.08 in</td>
+</tr>
+
+                
+              </table>
+              
+<table class="equal">
+  <caption>
+    Images
+  </caption>
+  <tr>
+    <th>Total</th>
+    <th>Autonomous</th>
+    <th>Manual</th>
+  </tr>
+  <tr>
+    <td>1,269</td>
+    <td>1,269</td>
+    <td>0</td>
+  </tr>
+</table>
+
+              
+
+
+            </div>
+          </div>
+
+          <div class="flex-auto print-col">
+            <!-- Settings -->
+            <div class="card">
+              <div class="title">Settings</div>
+              <table class="key-value">
+                
+<tr>
+  <th>Scan Mode</th>
+  <td >
+    3D Capture</td>
+</tr>
+
+                
+<tr>
+  <th>Stop Vehicle for Photo</th>
+  <td >
+    Disabled</td>
+</tr>
+
+                
+                
+                
+
+
+                
+
+
+<tr>
+  <th>Distance to Surface</th>
+  <td >
+    16.4 ft</td>
+</tr>
+
+
+<tr>
+  <th>Overlap</th>
+  <td >
+    80%</td>
+</tr>
+
+
+<tr>
+  <th>Sidelap</th>
+  <td >
+    80%</td>
+</tr>
+
+
+
+              </table>
+              
+
+
+              
+
+
+              
+
+
+              
+
+<table class="key-value">
+  <caption>
+    Scan Volume
+  </caption>
+  
+<tr>
+  <th>Above Ceiling</th>
+  <td >
+    Disabled</td>
+</tr>
+
+  
+<tr>
+  <th>Below Floor</th>
+  <td >
+    Enabled</td>
+</tr>
+
+  
+<tr>
+  <th>Outside Walls</th>
+  <td >
+    Disabled</td>
+</tr>
+
+  
+<tr>
+  <th>Inside</th>
+  <td >
+    Enabled</td>
+</tr>
+
+  
+<tr>
+  <th>Extend Capture Area</th>
+  <td >
+    8.2 ft</td>
+</tr>
+
+</table>
+
+
+              
+
+<table class="equal">
+  <caption>
+    Visual Geofence
+  </caption>
+  <tr>
+    <th>Strict Ceiling</th>
+    <th>Strict Floor</th>
+    <th>Strict Walls</th>
+  </tr>
+  <tr>
+    <td>Disabled</td>
+    <td>Enabled</td>
+    <td>Enabled</td>
+  </tr>
+</table>
+
+
+              
+
+<table class="equal">
+  <caption>
+    Scan Passes
+  </caption>
+  <tr>
+    <th>Z</th>
+    <th>Y</th>
+    <th>X</th>
+  </tr>
+  <tr>
+    <td>Enabled</td>
+    <td>Enabled</td>
+    <td>Enabled</td>
+  </tr>
+</table>
+
+
+            </div>
+
+            <!-- Camera Settings -->
+            <div class="card">
+              <div class="title">Camera Settings</div>
+              <table class="key-value">
+                
+<tr>
+  <th>Camera</th>
+  <td >
+    VT300-L Wide</td>
+</tr>
+
+                
+<tr>
+  <th>Resolution</th>
+  <td >
+    1/4</td>
+</tr>
+
+                
+<tr>
+  <th>Capture Mode</th>
+  <td >
+    Standard</td>
+</tr>
+
+                
+<tr>
+  <th>Thermal Camera</th>
+  <td >
+    On</td>
+</tr>
+
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <!-- Flights -->
+          <div class="flex-auto print-full">
+            <div class="card">
+              <div class="title">Flights</div>
+              <table>
+                <tr>
+                  <th>Flight</th>
+                  <th style="width: 10.4em">Flight ID</th>
+                  <th>Takeoff Time</th>
+                  <th>Images</th>
+                  <th>Vehicle Model</th>
+                  <th>Vehicle Name</th>
+                  <th>Vehicle ID</th>
+                </tr>
+                
+                <tr>
+                  <td>1</td>
+                  <td class="font-size-smaller">2E7127B1598341329C1C33335679C9A9</td>
+                  <td class="word-break-normal">2025-11-24 10:36:40 PM UTC</td>
+                  <td>908</td>
+                  <td class="word-break-normal">Skydio X10</td>
+                  <td class="word-break-normal">SkydioX10-fz84</td>
+                  <td class="font-size-smaller">r40ea00fz84</td>
+                </tr>
+                
+                <tr>
+                  <td>2</td>
+                  <td class="font-size-smaller">D87401A76E7F4151A9D9352D28726EDD</td>
+                  <td class="word-break-normal">2025-11-24 11:02:33 PM UTC</td>
+                  <td>361</td>
+                  <td class="word-break-normal">Skydio X10</td>
+                  <td class="word-break-normal">SkydioX10-fz84</td>
+                  <td class="font-size-smaller">r40ea00fz84</td>
+                </tr>
+                
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </body>
+</html>

@@ -35,6 +35,10 @@ By the end of this module, you'll understand how to safely operate the Skydio X1
 - Process imagery into orthomosaics using ESRI Site Scan
 - Publish and manage drone content in ArcGIS Online
 - Understand and work with DSM, DTM, and orthomosaic data
+- Execute 3D scanning missions using structure from motion
+- Process 3D models in Metashape and Site Scan
+- Manage operational safety with moving objects
+- Share 3D models via YouTube and web platforms
 
 **Example Applications:**
 - Building energy efficiency assessments
@@ -47,6 +51,10 @@ By the end of this module, you'll understand how to safely operate the Skydio X1
 - Environmental monitoring
 - Cultural site documentation
 - GIS base map creation
+- 3D modeling of buildings and structures
+- Archaeological site preservation
+- Digital cultural heritage archiving
+- Virtual museum exhibits
 
 ---
 
@@ -73,6 +81,13 @@ By the end of this module, you will be able to:
 17. ✅ Manage drone-derived content in GIS
 18. ✅ Operate safely in Alaska weather conditions
 19. ✅ Document flight operations and findings
+20. ✅ Understand structure from motion (SfM) and photogrammetry principles
+21. ✅ Execute 3D scanning missions with 3D Capture mode
+22. ✅ Manage operational safety with obstacle avoidance limitations
+23. ✅ Review point clouds and identify coverage gaps
+24. ✅ Process 3D models in Metashape and Site Scan
+25. ✅ Use Scanniverse for small object 3D scanning
+26. ✅ Share 3D models via YouTube and web platforms
 
 ---
 
@@ -198,6 +213,19 @@ By the end of this module, you will be able to:
     - Working with elevation data in ArcGIS
     - Resolution, accuracy, and limitations
     - Practical raster analysis techniques
+
+13. [**3D Mapping and Structure from Motion**](./lessons/lesson13_3d_mapping_structure_from_motion.md) (120 min)
+    - Structure from motion (SfM) principles and photogrammetry
+    - 3D Capture (3DC) scan mode with Skydio X10
+    - Operational safety with moving objects and obstacle avoidance
+    - Image overlap requirements (80/80 for 3D models)
+    - Point cloud analysis and gap identification
+    - Manual photo supplementation techniques
+    - Scanniverse for small object and artifact scanning
+    - Ground control points (GCPs) for accurate positioning
+    - Processing comparison: Metashape vs ArcGIS Site Scan
+    - Hardware requirements and limitations
+    - Case study: Nunalleq Museum 3D scan (1,269 images, 0.08" GSD)
 
 ---
 
@@ -385,6 +413,51 @@ Mission Phases:
 - Published content in ArcGIS Online
 
 [📋 Activity Instructions](./activities/activity-06-first-orthomosaic.md)
+
+---
+
+### Activity 7: 3D Scanning Mission - Structure from Motion
+**Time:** Full day (8+ hours including processing)
+**Reference:** Nunalleq Museum 3D Scan (November 24, 2025)
+
+Execute complete 3D scanning workflow with Skydio X10:
+
+**Planning Phase:**
+- Site selection and environmental assessment
+- Configure 3DC scan settings (80/80 overlap)
+- Develop safety protocols for active areas
+- Plan road closure and crowd management
+
+**Flight Operations:**
+- Execute multi-flight 3D capture mission
+- Manage operational safety (roads, crowds, animals)
+- Capture 1,000-1,500 images
+- Battery swap procedures at same location
+
+**Processing and Analysis:**
+- Review point cloud and identify coverage gaps
+- Process in both Metashape and ArcGIS Site Scan
+- Compare processing workflows and results
+- Plan manual photo supplementation
+
+**Sharing and Documentation:**
+- Create YouTube flythrough video
+- Publish to ArcGIS Online as 3D scene
+- Prepare community presentation
+- Document lessons learned
+
+**Deliverables:**
+- High-resolution 3D model (< 0.1" GSD)
+- Point cloud, mesh, orthomosaic, DSM
+- Processing comparison report
+- YouTube video and web scene
+- Mission report and lessons learned
+
+[📋 Activity Instructions](./activities/activity-07-3d-scanning-mission.md) | [📊 Nunalleq Scan Report](./resources/Capture_Report.html)
+
+**🎥 Watch the 3D Model:** (Click to view on YouTube)
+
+[![Nunalleq Museum 3D Model](https://img.youtube.com/vi/0wXSd0GDpUo/maxresdefault.jpg)](https://youtu.be/0wXSd0GDpUo?si=ytVeTywAJKatOsaN)
 
 ---
 
@@ -676,7 +749,6 @@ Use Skydio X10 thermal imaging to:
 ```
 module-07-remote-sensing-drones/
 ├── README.md
-├── module7_readme.md (this file)
 ├── lessons/
 │   ├── lesson1_skydio_x10_intro.md
 │   ├── lesson2_preflight_safety.md
