@@ -15,36 +15,11 @@ This repository contains training materials, workflows, and resources developed 
 - **Disaster response and recovery mapping** (October 2025 typhoon damage assessment)
 
 **Project Team:**
-- **Nalaquq LLC** (Sean Gleason, Lynn Marie Church, Warren Jones)
+- **Nalaquq LLC** (Sean Gleason, Patrick Jones, Lynn Marie Church)
 - **University of Arkansas Center for Advanced Spatial Technologies (CAST)** (Jonathan Lim)
-- **Qanirtuuq Incorporated** (Community partners)
+- **Qanirtuuq Incorporated** (Warren Jones, Byron Philips)
 
 **Funding:** NSF CIVIC Award #2527256 - "Dynamic Modeling of River Ecosystem Stability"
-
----
-
-## Repository Structure
-
-```
-├── modules/                    # Training modules organized by topic
-│   ├── 01-arcgis-online-basics/
-│   ├── 02-field-data-collection/
-│   ├── 03-digitizing-paper-maps/
-│   ├── 04-spatial-analysis/
-│   ├── 05-cartography/
-│   ├── 06-remote-sensing-satellite/
-│   ├── 07-remote-sensing-drones/
-│   ├── 08-change-detection/
-│   └── 09-river-monitoring/
-├── case-studies/              # Real-world applications
-│   └── typhoon-damage-2025/
-├── resources/                 # Reference materials and links
-├── workflows/                 # Step-by-step GIS workflows
-├── scripts/                   # Python scripts and Model Builder tools
-├── data-samples/             # Example datasets (where permissible)
-├── videos/                   # Video tutorial links and transcripts
-└── docs/                     # Additional documentation
-```
 
 ---
 
@@ -135,6 +110,30 @@ This training uses the ESRI ArcGIS platform:
 - Garmin 67i handheld GPS units
 
 ---
+## Repository Structure
+
+```
+├── modules/                    # Training modules organized by topic
+│   ├── 01-arcgis-online-basics/
+│   ├── 02-field-data-collection/
+│   ├── 03-digitizing-paper-maps/
+│   ├── 04-spatial-analysis/
+│   ├── 05-cartography/
+│   ├── 06-remote-sensing-satellite/
+│   ├── 07-remote-sensing-drones/
+│   ├── 08-change-detection/
+│   └── 09-river-monitoring/
+├── case-studies/              # Real-world applications
+│   └── typhoon-damage-2025/
+├── resources/                 # Reference materials and links
+├── workflows/                 # Step-by-step GIS workflows
+├── scripts/                   # Python scripts and Model Builder tools
+├── data-samples/             # Example datasets (where permissible)
+├── videos/                   # Video tutorial links and transcripts
+└── docs/                     # Additional documentation
+```
+
+---
 
 ## Contributing
 
@@ -191,9 +190,9 @@ This project is made possible through NSF CIVIC Award #2527256 and represents a 
 ## Contact
 
 **Project Leadership:**
-- **Sean Gleason** (Nalaquq LLC) - Technical Lead & Training
+- **Sean Gleason** (Nalaquq LLC) - Cirriculum Design, Geospatial Analysis, & Training
 - **Lynn Marie Church** (Nalaquq LLC) - Project Coordination
-- **Jonathan Lim** (University of Arkansas) - Curriculum Design
+- **Jonathan Lim** (University of Arkansas) - Geospatial Analysis 
 
 **Community Partners:**
 - **Warren Jones** - Community Liaison & Workforce Development
