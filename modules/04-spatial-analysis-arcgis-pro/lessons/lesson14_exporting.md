@@ -1,4 +1,4 @@
-# Lesson 10: Exporting and Sharing
+# Lesson 13: Exporting and Sharing
 
 **Duration:** 45 minutes
 **Difficulty:** Beginner-Intermediate
@@ -22,6 +22,18 @@ By the end of this lesson, you will be able to:
 4. ✅ Convert between file types using interoperability tools
 5. ✅ Use time-saving export workflows
 6. ✅ Choose appropriate format for sharing
+
+---
+
+## Video Tutorial: Exporting Data in ArcGIS Pro
+
+Watch this comprehensive tutorial on exporting and sharing data in ArcGIS Pro:
+
+[![Exporting Data in ArcGIS Pro](https://img.youtube.com/vi/JEUoOGE3TJM/maxresdefault.jpg)](https://www.youtube.com/watch?v=JEUoOGE3TJM)
+
+*Click the image above to watch the tutorial on YouTube*
+
+**Video Credit:** This tutorial is provided by GreenGirl Geospatial Services [greengirlgeo.com](https://greengirlgeo.com) 
 
 ---
 
@@ -200,6 +212,13 @@ By the end of this lesson, you will be able to:
 - Share complete analysis with team
 - Archive completed project
 - Move project to different computer
+
+**Additional Resources:**
+
+For detailed information on creating and sharing project packages, see the official Esri documentation:
+- [Project Package - ArcGIS Pro Documentation](https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/project-package.htm)
+
+This resource covers advanced packaging options, including what data to consolidate, sharing settings, and troubleshooting common issues.
 
 ---
 

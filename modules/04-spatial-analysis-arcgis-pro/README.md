@@ -101,6 +101,7 @@ By the end of this module, you will be able to:
     - Understand differences between DEM, DSM, and DTM
     - Work with NOAA LiDAR elevation data
     - Apply shaded relief and classification symbology to DEMs
+    - Choose appropriate elevation model for specific applications
 
 11. ✅ Export and share results
     - Export layers, shapefiles, and packages
@@ -164,35 +165,26 @@ By the end of this module, you will be able to:
    - Erase: removing areas from analysis
    - Intersect: finding overlapping areas
 
-8. [**Working with Raster Data**](./lessons/lesson8_raster_data.md) (60 min)
+8. [**Working with Raster Data**](./lessons/lesson8_raster_data.md) (90 min)
    - Adjusting HSV and contrast
    - Clipping rasters to extents
    - Understanding resolution
    - Combining multiple rasters with Mosaic to New Raster tool
    - Working with DEMs and hillshade visualization
-   - Raster vs vector considerations
-
-8b. [**Understanding DEM, DSM, and DTM**](./lessons/lesson8b_dem_dsm_dtm.md) (45 min)
-   - Definitions and key differences
-   - Digital Elevation Model (DEM) overview
+   - Understanding DEM, DSM, and DTM - definitions and key differences
    - Digital Surface Model (DSM) - top surface representation
    - Digital Terrain Model (DTM) - bare earth surface
    - How LiDAR creates different elevation products
    - Choosing the right elevation model for specific applications
    - Working with NOAA LiDAR data
+   - Raster vs vector considerations
 
 9. [**Graphics and Annotation**](./lessons/lesson9_graphics.md) (30 min)
    - Adding text to maps
    - Creating graphics layers
    - Annotating georeferenced maps
 
-10. [**Exporting and Sharing**](./lessons/lesson10_exporting.md) (45 min)
-    - Export as layer vs shapefile vs package
-    - Uploading to ArcGIS Online
-    - File type conversion (interoperability tools)
-    - Time-saving export workflows
-
-11. [**Creating Layers in ArcGIS Pro**](./lessons/lesson11_creating_layers.md) (45 min)
+10. [**Creating Layers in ArcGIS Pro**](./lessons/lesson11_creating_layers.md) (45 min)
     - Creating new feature classes in geodatabases
     - Choosing geometry types (point, line, polygon)
     - Setting coordinate systems
@@ -200,7 +192,7 @@ By the end of this module, you will be able to:
     - Feature classes vs shapefiles
     - Best practices for layer creation
 
-12. [**Using Edit Tools - Merge, Split, and Extend**](./lessons/lesson12_edit_tools.md) (60 min)
+11. [**Using Edit Tools - Merge, Split, and Extend**](./lessons/lesson12_edit_tools.md) (60 min)
     - Merging multiple features into one
     - Splitting features into separate parts
     - Extending lines to connect features
@@ -208,7 +200,7 @@ By the end of this module, you will be able to:
     - Edit tools workflow for grant applications
     - Quality assurance and troubleshooting
 
-13. [**Creating Attribute Fields and Calculating Geometry**](./lessons/lesson13_attribute_fields_geometry.md) (60 min)
+12. [**Creating Attribute Fields and Calculating Geometry**](./lessons/lesson13_attribute_fields_geometry.md) (60 min)
     - Adding new fields to existing layers
     - Choosing appropriate field types
     - Using Calculate Geometry for line lengths
@@ -216,6 +208,12 @@ By the end of this module, you will be able to:
     - Calculating polygon areas
     - Coordinate system impacts on measurements
     - Preparing measurements for grant applications
+
+13. [**Exporting and Sharing**](./lessons/lesson14_exporting.md) (45 min)
+    - Export as layer vs shapefile vs package
+    - Uploading to ArcGIS Online
+    - File type conversion (interoperability tools)
+    - Time-saving export workflows
 
 ---
 
@@ -431,8 +429,7 @@ Steps:
 This LiDAR data supports Quinhagak's erosion monitoring, flood risk assessment, and relocation planning efforts. High-resolution elevation data is critical for infrastructure planning and climate adaptation.
 
 **Lessons Referenced:**
-- Lesson 8: Working with Raster Data (Mosaic tool)
-- Lesson 8b: Understanding DEM, DSM, and DTM
+- Lesson 8: Working with Raster Data (Mosaic tool and DEM/DSM/DTM)
 
 [📋 Activity Instructions](./activities/activity-08-noaa-lidar-dem.md)
 
@@ -503,10 +500,10 @@ Following this session, SAR volunteers committed to monitoring Uyak River flow d
 8. Export map as PDF for grant submission
 
 **Skills Practiced:**
-- Creating layers in ArcGIS Pro (Lesson 11)
-- Using edit tools: merge, split, extend (Lesson 12)
+- Creating layers in ArcGIS Pro (Lesson 10)
+- Using edit tools: merge, split, extend (Lesson 11)
 - Adding attribute fields
-- Calculating geometry in specific units (Lesson 13)
+- Calculating geometry in specific units (Lesson 12)
 - Professional cartography and map layout
 - Grant application data preparation
 
@@ -521,9 +518,10 @@ Following this session, SAR volunteers committed to monitoring Uyak River flow d
 This activity demonstrates how GIS supports community funding applications by providing accurate, professional spatial data. The techniques learned directly support successful grant applications for community safety improvements. The example map in the assets directory shows the professional quality expected for grant submissions.
 
 **Lessons Referenced:**
-- Lesson 11: Creating Layers
-- Lesson 12: Edit Tools (Merge, Split, Extend)
-- Lesson 13: Attribute Fields and Calculating Geometry
+- Lesson 10: Creating Layers
+- Lesson 11: Edit Tools (Merge, Split, Extend)
+- Lesson 12: Attribute Fields and Calculating Geometry
+- Lesson 13: Exporting and Sharing
 - Module 5, Activity 6: Professional map creation with advanced cartography techniques
 
 [📋 Activity Instructions](./activities/activity-10-sar-trail-marking-grant.md)
