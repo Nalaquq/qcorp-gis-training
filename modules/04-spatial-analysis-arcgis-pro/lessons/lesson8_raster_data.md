@@ -21,7 +21,8 @@ By the end of this lesson, you will be able to:
 3. ✅ Modify contrast and brightness
 4. ✅ Clip rasters to specific extents
 5. ✅ Understand and verify raster resolution
-6. ✅ Work with different raster types (imagery, DEMs, etc.)
+6. ✅ Combine multiple raster tiles using Mosaic to New Raster
+7. ✅ Work with different raster types (imagery, DEMs, etc.)
 
 ---
 
@@ -224,7 +225,107 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Part 6: Working with DEMs (Digital Elevation Models)
+## Part 6: Combining Rasters with Mosaic to New Raster
+
+### When to Use Mosaic Raster Tool
+
+**Purpose:**
+- Combine multiple raster datasets into one seamless raster
+- Merge adjacent tiles of elevation data
+- Create continuous coverage from separate files
+
+**Common Scenarios:**
+- LiDAR data downloaded as multiple tiles
+- DEMs split by geographic extent
+- Satellite imagery in adjacent scenes
+- Combining orthomosaics from separate flights
+
+### Understanding the Mosaic to New Raster Tool
+
+**Watch this video explanation of the Mosaic Raster function:**
+
+[![Mosaic Raster Function Tutorial](https://img.youtube.com/vi/RV8uzf44KpM/maxresdefault.jpg)](https://www.youtube.com/watch?v=RV8uzf44KpM&t=70s)
+
+*Click the image above to watch the tutorial on YouTube*
+
+**Example Output - Professional Elevation Map:**
+
+![Quinhagak LiDAR Elevation Map](../../../assets/images/Layout.jpg)
+
+*Example of final map created from mosaicked NOAA LiDAR tiles showing Quinhagak elevation with professional cartography*
+
+### Task 6.1: Mosaic Multiple Raster Tiles
+
+**Access:**
+1. Analysis tab → Tools
+2. Search: "Mosaic to New Raster"
+3. Open the tool
+
+**Parameters:**
+
+**Input Rasters:**
+- Add all raster tiles you want to combine
+- Click folder icon and select multiple files
+- Example: 4 LiDAR DEM tiles for Quinhagak
+
+**Output Location:**
+- Geodatabase or folder
+- Example: `C:/GIS_Projects/Quinhagak/Quinhagak.gdb`
+
+**Raster Dataset Name:**
+- Name for output mosaic
+- Example: `Quinhagak_DEM_Mosaic`
+
+**Coordinate System (optional):**
+- Usually inherits from input rasters
+- Verify all inputs have same projection
+
+**Pixel Type (optional):**
+- Should match input data
+- For elevation: typically 32-bit floating point
+
+**Number of Bands:**
+- DEMs: 1 band
+- RGB imagery: 3 bands
+
+**Mosaic Operator:**
+- **FIRST:** Uses first raster's values in overlap areas
+- **LAST:** Uses last raster's values in overlap areas
+- **MEAN:** Averages overlapping values (recommended for DEMs)
+- **MAXIMUM:** Takes highest value
+- **MINIMUM:** Takes lowest value
+
+**For LiDAR DEMs:** Use **MEAN** to blend seamlessly
+
+**Mosaic Colormap Mode:**
+- Usually "FIRST" or "MATCH"
+- Less critical for elevation data
+
+**Run:**
+- Tool creates single continuous raster
+- Check output for seamless blending
+- Verify no obvious tile boundaries
+
+### Best Practices
+
+**Before Mosaicking:**
+- Ensure all inputs have same projection
+- Check that cell sizes match
+- Verify data types are compatible
+
+**After Mosaicking:**
+- Inspect overlap areas for artifacts
+- Check that values make sense
+- Compare with original tiles
+
+**File Management:**
+- Keep original tiles as backup
+- Name mosaic clearly
+- Document source data
+
+---
+
+## Part 7: Working with DEMs (Digital Elevation Models)
 
 ### Understanding DEMs
 
@@ -260,7 +361,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Part 7: Raster vs Vector
+## Part 8: Raster vs Vector
 
 ### When to Use Each
 
@@ -283,7 +384,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Part 8: Practical Exercise
+## Part 9: Practical Exercise
 
 ### Exercise: Imagery Enhancement and Clipping
 

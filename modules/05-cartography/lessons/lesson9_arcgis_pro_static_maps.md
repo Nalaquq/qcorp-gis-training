@@ -582,6 +582,12 @@ Each GIS technician creates a unique map for Quinhagak:
 
 ## Troubleshooting Common Issues
 
+**Watch this troubleshooting guide for common layout issues in ArcGIS Pro:**
+
+[![ArcGIS Pro Layout Troubleshooting Guide](https://img.youtube.com/vi/wMMYV1t4cCI/maxresdefault.jpg)](https://www.youtube.com/watch?v=wMMYV1t4cCI&t=1s)
+
+*Click the image above to watch the troubleshooting tutorial on YouTube*
+
 ### Broken Data Links
 - **Symptom:** Red exclamation mark on layer
 - **Solution:** Right-click → Repair Data Source → Navigate to correct file location

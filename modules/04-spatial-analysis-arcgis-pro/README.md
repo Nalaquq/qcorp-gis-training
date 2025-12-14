@@ -97,6 +97,10 @@ By the end of this module, you will be able to:
     - Adjust HSV (Hue, Saturation, Value) and contrast
     - Clip rasters to specific extents
     - Understand raster resolution through measurement
+    - Combine multiple raster tiles using Mosaic to New Raster
+    - Understand differences between DEM, DSM, and DTM
+    - Work with NOAA LiDAR elevation data
+    - Apply shaded relief and classification symbology to DEMs
 
 11. ✅ Export and share results
     - Export layers, shapefiles, and packages
@@ -164,7 +168,18 @@ By the end of this module, you will be able to:
    - Adjusting HSV and contrast
    - Clipping rasters to extents
    - Understanding resolution
+   - Combining multiple rasters with Mosaic to New Raster tool
+   - Working with DEMs and hillshade visualization
    - Raster vs vector considerations
+
+8b. [**Understanding DEM, DSM, and DTM**](./lessons/lesson8b_dem_dsm_dtm.md) (45 min)
+   - Definitions and key differences
+   - Digital Elevation Model (DEM) overview
+   - Digital Surface Model (DSM) - top surface representation
+   - Digital Terrain Model (DTM) - bare earth surface
+   - How LiDAR creates different elevation products
+   - Choosing the right elevation model for specific applications
+   - Working with NOAA LiDAR data
 
 9. [**Graphics and Annotation**](./lessons/lesson9_graphics.md) (30 min)
    - Adding text to maps
@@ -368,33 +383,58 @@ Steps:
 
 ---
 
-### Activity 8: Comprehensive Spatial Analysis
+### Activity 8: NOAA LiDAR DEM Analysis
 **Time:** 90 minutes
 
-**The Task:** Apply multiple spatial analysis tools to answer a community question
+**The Task:** Download and process NOAA 2024 LiDAR data for Quinhagak to create professional elevation visualizations
 
-Choose one scenario:
-1. **Scenario A:** Where should a new community building be located?
-   - Use clip to extract parcels in suitable area
-   - Buffer existing infrastructure
-   - Use intersect to find parcels meeting all criteria
-   - Use erase to remove unsuitable areas (wetlands, etc.)
+![NOAA LiDAR Elevation Map](../../assets/images/Layout.jpg)
+*Example output: Professional elevation map from mosaicked NOAA LiDAR tiles with shaded relief symbology*
 
-2. **Scenario B:** What parcels are affected by potential flooding?
-   - Create flood buffer zones from rivers/streams
-   - Use spatial join to identify affected parcels
-   - Calculate total area at risk
-   - Dissolve by land use type
+**Real-World Data:** Work with high-resolution LiDAR elevation data collected by NOAA in 2024, critical for erosion monitoring and relocation planning.
 
-3. **Scenario C:** Community infrastructure planning
-   - Merge road segments
-   - Buffer roads to show right-of-way
-   - Clip parcels to planning area
-   - Analyze accessibility
+Steps:
+1. Review NOAA LiDAR dataset metadata:
+   - https://www.fisheries.noaa.gov/inport/item/77599
+2. Download Quinhagak LiDAR tiles from NOAA data viewer:
+   - https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=10427/details/10427
+3. Examine individual raster tiles in ArcGIS Pro
+4. Use **Mosaic to New Raster** tool to combine tiles:
+   - Set Mosaic Operator to MEAN for seamless blending
+   - Create single continuous DEM
+5. Apply **Shaded Relief** symbology with bathymetric color ramp
+6. Create duplicate layer with **Classify** symbology (Natural Breaks)
+7. Create professional map layout with:
+   - Both symbology versions
+   - Legend, scale bar, north arrow
+   - Data source and map information
+8. Analyze elevation patterns and flood risk areas
 
-**Deliverable:** Complete analysis with map and written findings
+**Tutorial Video:**
+- [Mosaic Raster Function Tutorial](https://www.youtube.com/watch?v=RV8uzf44KpM&t=70s)
 
-[📋 Activity Instructions](./activities/activity-08-comprehensive-analysis.md)
+**Skills Practiced:**
+- Downloading and organizing multi-tile datasets
+- Understanding LiDAR data structure
+- Using Mosaic to New Raster tool
+- Applying multiple symbology approaches
+- Professional cartographic layout design
+- Working with elevation data for community planning
+
+**Deliverables:**
+- Mosaicked DEM of Quinhagak
+- Map with shaded relief visualization
+- Map with classified elevation symbology
+- Analysis of elevation patterns and community implications
+
+**Real-World Impact:**
+This LiDAR data supports Quinhagak's erosion monitoring, flood risk assessment, and relocation planning efforts. High-resolution elevation data is critical for infrastructure planning and climate adaptation.
+
+**Lessons Referenced:**
+- Lesson 8: Working with Raster Data (Mosaic tool)
+- Lesson 8b: Understanding DEM, DSM, and DTM
+
+[📋 Activity Instructions](./activities/activity-08-noaa-lidar-dem.md)
 
 ---
 
