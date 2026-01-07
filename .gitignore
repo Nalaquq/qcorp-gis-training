@@ -209,3 +209,27 @@ scripts/river_env/
 
 # RivGraph
 RivGraph/
+
+# Geospatial data files (large binary files)
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+*.jp2
+*.img
+*.hdf
+*.nc
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.gpkg
+*.geojson
+*_labeled.tif
+*_region_stats.csv
+*_regions.gpkg
+region_group_output/
+test_region_group_output/
