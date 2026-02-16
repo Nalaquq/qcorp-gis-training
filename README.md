@@ -33,7 +33,7 @@ This repository contains training materials, workflows, and resources developed 
 4. **[Spatial Analysis in ArcGIS Pro](./modules/04-spatial-analysis-arcgis-pro/)** - Geoprocessing tools, buffers, clip operations *(In Development)*
 5. **[Cartography](./modules/05-cartography/)** - Map design, vector data, web publishing, ArcGIS Pro layouts
 6. **[Remote Sensing: Satellite](./modules/06-module-name/)** - Landsat, Sentinel, Wayback imagery *(In Development)*
-7. **[Remote Sensing: Drones](./modules/07-remote-sensing-drones/)** - UAS data collection and processing
+7. **[Remote Sensing: Satellite & Drones](./modules/07-remote-sensing-satellite-and-drones/)** - Satellite imagery analysis and UAS data collection
 
 ### Advanced Modules (Summer 2026)
 
@@ -120,7 +120,7 @@ This training uses the ESRI ArcGIS platform:
 │   ├── 04-spatial-analysis/
 │   ├── 05-cartography/
 │   ├── 06-remote-sensing-satellite/
-│   ├── 07-remote-sensing-drones/
+│   ├── 07-remote-sensing-satellite-and-drones/
 │   ├── 08-change-detection/
 │   └── 09-river-monitoring/
 ├── case-studies/              # Real-world applications

@@ -56,7 +56,7 @@ Status: Need to verify if this directory/content exists
    - Has: `README.md` (PLACEHOLDER - only 25 lines)
    - **Action:** Replace README.md with module5_readme.md or copy content
 
-4. **Module 7: Remote Sensing and Drones**
+4. **Module 7: Remote Sensing: Satellite & Drones**
    - Has: `module7_readme.md` (comprehensive, 800+ lines)
    - Has: `README.md` (PLACEHOLDER - only 25 lines)
    - **Action:** Replace README.md with module7_readme.md or copy content
@@ -113,12 +113,12 @@ These are empty placeholder directories created by the template script:
 - **Content:** None
 - **Fix:** Create content OR remove from main README until ready
 
-### Module 07: Remote Sensing and Drones ⚠️
+### Module 07: Remote Sensing: Satellite & Drones ⚠️
 - **Status:** Has complete content BUT README.md is placeholder
 - **Content:** `module7_readme.md` has full content (800+ lines)
 - **Fix:**
   ```bash
-  cp modules/07-remote-sensing-drones/module7_readme.md modules/07-remote-sensing-drones/README.md
+  cp modules/07-remote-sensing-satellite-and-drones/module7_readme.md modules/07-remote-sensing-satellite-and-drones/README.md
   ```
 
 ### Module 08: Change Detection ❌
@@ -146,7 +146,7 @@ cp modules/01-arcgis-online-basics/module1_readme.md modules/01-arcgis-online-ba
 cp modules/05-cartography-arcgis-online/module5_readme.md modules/05-cartography-arcgis-online/README.md
 
 # Module 7
-cp modules/07-remote-sensing-drones/module7_readme.md modules/07-remote-sensing-drones/README.md
+cp modules/07-remote-sensing-satellite-and-drones/module7_readme.md modules/07-remote-sensing-satellite-and-drones/README.md
 ```
 
 **2. Update main README.md Module 5 link:**
@@ -183,7 +183,7 @@ Change modules 3, 4, 6, 8, 9 in the main README to indicate they're "Coming Soon
 4. **Spatial Analysis** 🚧 *(In Development)* - Geoprocessing tools, buffers, clip operations
 5. **[Cartography with ArcGIS Online](./modules/05-cartography-arcgis-online/)** ✅ - Map design, vector data, web publishing
 6. **Remote Sensing: Satellite** 🚧 *(In Development)* - Landsat, Sentinel, Wayback imagery
-7. **[Remote Sensing: Drones](./modules/07-remote-sensing-drones/)** ✅ - UAS data collection and processing
+7. **[Remote Sensing: Satellite & Drones](./modules/07-remote-sensing-satellite-and-drones/)** ✅ - Satellite imagery analysis and UAS data collection
 
 ### Advanced Modules (Summer 2026)
 
@@ -222,7 +222,7 @@ echo "Fixing Module README files..."
 # Copy comprehensive readmes to README.md
 cp modules/01-arcgis-online-basics/module1_readme.md modules/01-arcgis-online-basics/README.md
 cp modules/05-cartography-arcgis-online/module5_readme.md modules/05-cartography-arcgis-online/README.md
-cp modules/07-remote-sensing-drones/module7_readme.md modules/07-remote-sensing-drones/README.md
+cp modules/07-remote-sensing-satellite-and-drones/module7_readme.md modules/07-remote-sensing-satellite-and-drones/README.md
 
 echo "Removing placeholder module directories..."
 

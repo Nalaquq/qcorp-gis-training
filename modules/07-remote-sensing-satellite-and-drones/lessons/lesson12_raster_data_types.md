@@ -606,6 +606,6 @@ After completing this lesson, you now understand:
 
 ---
 
-**Module 7: Remote Sensing and Drone Operations**
+**Module 7: Remote Sensing — Satellite Imagery & Drone Operations**
 **Lesson 12: Understanding Raster Data - DSM, DTM, and Orthomosaics**
 **Updated:** November 2025

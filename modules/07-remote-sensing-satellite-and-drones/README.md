@@ -1,4 +1,4 @@
-# Module 7: Remote Sensing and Drone Operations
+# Module 7: Remote Sensing — Satellite Imagery & Drone Operations
 
 ## Introduction to Skydio X10 for Community Mapping and Monitoring
 
@@ -461,6 +461,47 @@ Execute complete 3D scanning workflow with Skydio X10:
 
 ---
 
+### Activity 8: Landsat Water Detection with Google Earth Engine
+**Time:** 90–120 minutes
+**Prerequisites:** GEE account, basic JavaScript familiarity
+
+**The Task:** Use the GEE Code Editor to generate monthly water masks from the Landsat archive (1984–present) for temporal water body monitoring.
+
+Activity Steps:
+1. **Setup** (15 min)
+   - Open GEE Code Editor and load `landsat_water_mask.js`
+   - Draw a polygon AOI on the map
+   - Set date range and filename prefix
+
+2. **Query & Preview** (20 min)
+   - Query available imagery and review auto-selected collections
+   - Examine RGB preview composite
+   - Understand band harmonization across Landsat 5/7/8/9
+
+3. **Water Mask Calibration** (20 min)
+   - Adjust NIR threshold using slider and presets
+   - Preview binary water mask on the map
+   - Review water area statistics
+
+4. **Monthly Export** (15 min)
+   - Generate monthly median composites with water masks
+   - Submit export tasks to Google Drive
+   - Review exported GeoTIFF files
+
+5. **Analysis & Integration** (30 min)
+   - Load exported water masks into ArcGIS Pro
+   - Compare water extent across months/years
+   - Feed binary masks into `river_extraction_workflow.ipynb` for polygon extraction
+
+**Deliverables:**
+- Monthly 6-band multiband GeoTIFFs (30m resolution)
+- Monthly binary water mask GeoTIFFs (1=water, 0=land)
+- Comparison of water extent across selected time periods
+
+[📋 Activity Instructions](./activities/activity-08-landsat-water-mask.md) | [💻 GEE Script](../../scripts/landsat_water_mask.js)
+
+---
+
 ## 📚 Resources
 
 ### Official Skydio Documentation
@@ -747,17 +788,18 @@ Use Skydio X10 thermal imaging to:
 ## 📂 Module Files
 
 ```
-module-07-remote-sensing-drones/
+module-07-remote-sensing-satellite-and-drones/
 ├── README.md
 ├── lessons/
+│   ├── 01-introduction.md
 │   ├── lesson1_skydio_x10_intro.md
 │   ├── lesson2_preflight_safety.md
 │   ├── lesson3_hand_launch_catch.md
-│   ├── lesson4_flight_deck_controller.md
-│   ├── lesson5_obstacle_avoidance.md
-│   ├── lesson6_manual_skills_mode.md
-│   ├── lesson7_faa_radio.md
-│   └── lesson8_thermal_imaging.md
+│   ├── lesson9_mapping_missions.md
+│   ├── lesson10_data_upload.md
+│   ├── lesson11_orthomosaic_processing.md
+│   ├── lesson12_raster_data_types.md
+│   └── lesson13_3d_mapping_structure_from_motion.md
 ├── videos/
 │   ├── video-index.md
 │   └── transcripts/
@@ -767,6 +809,9 @@ module-07-remote-sensing-drones/
 │   ├── activity-03-controller-manual-skills.md
 │   ├── activity-04-thermal-mission.md
 │   ├── activity-05-faa-radio.md
+│   ├── activity-06-first-orthomosaic.md
+│   ├── activity-07-3d-scanning-mission.md
+│   ├── activity-08-landsat-water-mask.md
 │   └── sample-data/
 ├── resources/
 │   ├── SkydioX10_QuickStartGuide_A0380.pdf
